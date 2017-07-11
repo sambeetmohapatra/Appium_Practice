@@ -2,28 +2,130 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
+      <![CDATA[Run Appium Server]]>
+    </line>
+    <line>
       <![CDATA[Start Execution]]>
     </line>
     <line>
-      <![CDATA[End Execution]]>
+      <![CDATA[Set Desired Capabilities - iOS]]>
+    </line>
+    <line>
+      <![CDATA[Launch iOSDriver]]>
+    </line>
+    <line>
+      <![CDATA[Create object of POM Class]]>
+    </line>
+    <line>
+      <![CDATA[Sum Operation]]>
+    </line>
+    <line>
+      <![CDATA[Send Keys :  [[IOSDriver:  on MAC (7fc62cb5-36c8-4cbd-9ac1-112dbe80fc2f)] -> name: IntegerA]]]>
+    </line>
+    <line>
+      <![CDATA[Send Keys :  [[IOSDriver:  on MAC (7fc62cb5-36c8-4cbd-9ac1-112dbe80fc2f)] -> name: IntegerB]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked :  [[IOSDriver:  on MAC (7fc62cb5-36c8-4cbd-9ac1-112dbe80fc2f)] -> name: ComputeSumButton]]]>
+    </line>
+    <line>
+      <![CDATA[Answer is 300]]>
+    </line>
+    <line>
+      <![CDATA[Click on Alert ]]>
+    </line>
+    <line>
+      <![CDATA[Clicked :  Proxy element for: DefaultElementLocator 'By.name: show alert']]>
+    </line>
+    <line>
+      <![CDATA[Alert Title is : Cool title]]>
+    </line>
+    <line>
+      <![CDATA[Clicked :  Proxy element for: DefaultElementLocator 'By.name: show alert']]>
+    </line>
+    <line>
+      <![CDATA[Alert Title is : Cool title]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for1 seconds]]>
+    </line>
+    <line>
+      <![CDATA[Stop Appium Server]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23248" started-at="2017-07-03T01:15:36Z" finished-at="2017-07-03T01:15:59Z">
+  <suite name="Default suite" duration-ms="71342" started-at="2017-07-11T19:52:29Z" finished-at="2017-07-11T19:53:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23248" started-at="2017-07-03T01:15:36Z" finished-at="2017-07-03T01:15:59Z">
-      <class name="com.day4.Mortgage_Calc">
-        <test-method status="PASS" signature="run_calc()[pri:0, instance:com.day4.Mortgage_Calc@31ef45e3]" name="run_calc" duration-ms="23212" started-at="2017-07-03T06:45:36Z" finished-at="2017-07-03T06:45:59Z">
+    <test name="Default test" duration-ms="71342" started-at="2017-07-11T19:52:29Z" finished-at="2017-07-11T19:53:41Z">
+      <class name="com.iOSTest.iOS_Test_App">
+        <test-method status="PASS" signature="bs_config()[pri:0, instance:com.iOSTest.iOS_Test_App@3632be31]" name="bs_config" is-config="true" duration-ms="8125" started-at="2017-07-12T01:22:21Z" finished-at="2017-07-12T01:22:29Z">
           <reporter-output>
+            <line>
+              <![CDATA[Run Appium Server]]>
+            </line>
             <line>
               <![CDATA[Start Execution]]>
             </line>
+          </reporter-output>
+        </test-method> <!-- bs_config -->
+        <test-method status="PASS" signature="test_ios_App()[pri:0, instance:com.iOSTest.iOS_Test_App@3632be31]" name="test_ios_App" duration-ms="69891" started-at="2017-07-12T01:22:29Z" finished-at="2017-07-12T01:23:39Z">
+          <reporter-output>
             <line>
-              <![CDATA[End Execution]]>
+              <![CDATA[Set Desired Capabilities - iOS]]>
+            </line>
+            <line>
+              <![CDATA[Launch iOSDriver]]>
+            </line>
+            <line>
+              <![CDATA[Create object of POM Class]]>
+            </line>
+            <line>
+              <![CDATA[Sum Operation]]>
+            </line>
+            <line>
+              <![CDATA[Send Keys :  [[IOSDriver:  on MAC (7fc62cb5-36c8-4cbd-9ac1-112dbe80fc2f)] -> name: IntegerA]]]>
+            </line>
+            <line>
+              <![CDATA[Send Keys :  [[IOSDriver:  on MAC (7fc62cb5-36c8-4cbd-9ac1-112dbe80fc2f)] -> name: IntegerB]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked :  [[IOSDriver:  on MAC (7fc62cb5-36c8-4cbd-9ac1-112dbe80fc2f)] -> name: ComputeSumButton]]]>
+            </line>
+            <line>
+              <![CDATA[Answer is 300]]>
+            </line>
+            <line>
+              <![CDATA[Click on Alert ]]>
+            </line>
+            <line>
+              <![CDATA[Clicked :  Proxy element for: DefaultElementLocator 'By.name: show alert']]>
+            </line>
+            <line>
+              <![CDATA[Alert Title is : Cool title]]>
+            </line>
+            <line>
+              <![CDATA[Clicked :  Proxy element for: DefaultElementLocator 'By.name: show alert']]>
+            </line>
+            <line>
+              <![CDATA[Alert Title is : Cool title]]>
             </line>
           </reporter-output>
-        </test-method> <!-- run_calc -->
-      </class> <!-- com.day4.Mortgage_Calc -->
+        </test-method> <!-- test_ios_App -->
+        <test-method status="PASS" signature="am_config()[pri:0, instance:com.iOSTest.iOS_Test_App@3632be31]" name="am_config" is-config="true" duration-ms="1427" started-at="2017-07-12T01:23:39Z" finished-at="2017-07-12T01:23:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for1 seconds]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- am_config -->
+        <test-method status="PASS" signature="as_config()[pri:0, instance:com.iOSTest.iOS_Test_App@3632be31]" name="as_config" is-config="true" duration-ms="12" started-at="2017-07-12T01:23:46Z" finished-at="2017-07-12T01:23:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Stop Appium Server]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- as_config -->
+      </class> <!-- com.iOSTest.iOS_Test_App -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
