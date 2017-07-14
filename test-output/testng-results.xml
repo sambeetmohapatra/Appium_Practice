@@ -20,13 +20,13 @@
       <![CDATA[Sum Operation]]>
     </line>
     <line>
-      <![CDATA[Send Keys :  [[IOSDriver:  on MAC (7fc62cb5-36c8-4cbd-9ac1-112dbe80fc2f)] -> name: IntegerA]]]>
+      <![CDATA[Send Keys :  [[IOSDriver:  on MAC (11e521b1-fde1-475c-85c4-951f5db512c6)] -> name: IntegerA]]]>
     </line>
     <line>
-      <![CDATA[Send Keys :  [[IOSDriver:  on MAC (7fc62cb5-36c8-4cbd-9ac1-112dbe80fc2f)] -> name: IntegerB]]]>
+      <![CDATA[Send Keys :  [[IOSDriver:  on MAC (11e521b1-fde1-475c-85c4-951f5db512c6)] -> name: IntegerB]]]>
     </line>
     <line>
-      <![CDATA[Clicked :  [[IOSDriver:  on MAC (7fc62cb5-36c8-4cbd-9ac1-112dbe80fc2f)] -> name: ComputeSumButton]]]>
+      <![CDATA[Clicked :  [[IOSDriver:  on MAC (11e521b1-fde1-475c-85c4-951f5db512c6)] -> name: ComputeSumButton]]]>
     </line>
     <line>
       <![CDATA[Answer is 300]]>
@@ -47,18 +47,18 @@
       <![CDATA[Alert Title is : Cool title]]>
     </line>
     <line>
-      <![CDATA[Waiting for1 seconds]]>
+      <![CDATA[Waiting for : 1 second(s)]]>
     </line>
     <line>
       <![CDATA[Stop Appium Server]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="71342" started-at="2017-07-11T19:52:29Z" finished-at="2017-07-11T19:53:41Z">
+  <suite name="Default suite" duration-ms="111952" started-at="2017-07-13T21:56:21Z" finished-at="2017-07-13T21:58:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="71342" started-at="2017-07-11T19:52:29Z" finished-at="2017-07-11T19:53:41Z">
+    <test name="Default test" duration-ms="111952" started-at="2017-07-13T21:56:21Z" finished-at="2017-07-13T21:58:13Z">
       <class name="com.iOSTest.iOS_Test_App">
-        <test-method status="PASS" signature="bs_config()[pri:0, instance:com.iOSTest.iOS_Test_App@3632be31]" name="bs_config" is-config="true" duration-ms="8125" started-at="2017-07-12T01:22:21Z" finished-at="2017-07-12T01:22:29Z">
+        <test-method status="PASS" signature="bs_config()[pri:0, instance:com.iOSTest.iOS_Test_App@3632be31]" name="bs_config" is-config="true" duration-ms="8272" started-at="2017-07-14T03:26:13Z" finished-at="2017-07-14T03:26:21Z">
           <reporter-output>
             <line>
               <![CDATA[Run Appium Server]]>
@@ -68,7 +68,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- bs_config -->
-        <test-method status="PASS" signature="test_ios_App()[pri:0, instance:com.iOSTest.iOS_Test_App@3632be31]" name="test_ios_App" duration-ms="69891" started-at="2017-07-12T01:22:29Z" finished-at="2017-07-12T01:23:39Z">
+        <test-method status="PASS" signature="test_ios_App()[pri:0, instance:com.iOSTest.iOS_Test_App@3632be31]" name="test_ios_App" duration-ms="110411" started-at="2017-07-14T03:26:21Z" finished-at="2017-07-14T03:28:12Z">
           <reporter-output>
             <line>
               <![CDATA[Set Desired Capabilities - iOS]]>
@@ -83,13 +83,13 @@
               <![CDATA[Sum Operation]]>
             </line>
             <line>
-              <![CDATA[Send Keys :  [[IOSDriver:  on MAC (7fc62cb5-36c8-4cbd-9ac1-112dbe80fc2f)] -> name: IntegerA]]]>
+              <![CDATA[Send Keys :  [[IOSDriver:  on MAC (11e521b1-fde1-475c-85c4-951f5db512c6)] -> name: IntegerA]]]>
             </line>
             <line>
-              <![CDATA[Send Keys :  [[IOSDriver:  on MAC (7fc62cb5-36c8-4cbd-9ac1-112dbe80fc2f)] -> name: IntegerB]]]>
+              <![CDATA[Send Keys :  [[IOSDriver:  on MAC (11e521b1-fde1-475c-85c4-951f5db512c6)] -> name: IntegerB]]]>
             </line>
             <line>
-              <![CDATA[Clicked :  [[IOSDriver:  on MAC (7fc62cb5-36c8-4cbd-9ac1-112dbe80fc2f)] -> name: ComputeSumButton]]]>
+              <![CDATA[Clicked :  [[IOSDriver:  on MAC (11e521b1-fde1-475c-85c4-951f5db512c6)] -> name: ComputeSumButton]]]>
             </line>
             <line>
               <![CDATA[Answer is 300]]>
@@ -111,14 +111,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- test_ios_App -->
-        <test-method status="PASS" signature="am_config()[pri:0, instance:com.iOSTest.iOS_Test_App@3632be31]" name="am_config" is-config="true" duration-ms="1427" started-at="2017-07-12T01:23:39Z" finished-at="2017-07-12T01:23:41Z">
+        <test-method status="PASS" signature="am_config()[pri:0, instance:com.iOSTest.iOS_Test_App@3632be31]" name="am_config" is-config="true" duration-ms="1506" started-at="2017-07-14T03:28:12Z" finished-at="2017-07-14T03:28:13Z">
           <reporter-output>
             <line>
-              <![CDATA[Waiting for1 seconds]]>
+              <![CDATA[Waiting for : 1 second(s)]]>
             </line>
           </reporter-output>
         </test-method> <!-- am_config -->
-        <test-method status="PASS" signature="as_config()[pri:0, instance:com.iOSTest.iOS_Test_App@3632be31]" name="as_config" is-config="true" duration-ms="12" started-at="2017-07-12T01:23:46Z" finished-at="2017-07-12T01:23:46Z">
+        <test-method status="PASS" signature="as_config()[pri:0, instance:com.iOSTest.iOS_Test_App@3632be31]" name="as_config" is-config="true" duration-ms="7" started-at="2017-07-14T03:28:14Z" finished-at="2017-07-14T03:28:14Z">
           <reporter-output>
             <line>
               <![CDATA[Stop Appium Server]]>
