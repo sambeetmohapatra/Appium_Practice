@@ -1,131 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Run Appium Server]]>
-    </line>
-    <line>
-      <![CDATA[Start Execution]]>
-    </line>
-    <line>
-      <![CDATA[Set Desired Capabilities - iOS]]>
-    </line>
-    <line>
-      <![CDATA[Launch iOSDriver]]>
-    </line>
-    <line>
-      <![CDATA[Create object of POM Class]]>
-    </line>
-    <line>
-      <![CDATA[Sum Operation]]>
-    </line>
-    <line>
-      <![CDATA[Send Keys :  [[IOSDriver:  on MAC (11e521b1-fde1-475c-85c4-951f5db512c6)] -> name: IntegerA]]]>
-    </line>
-    <line>
-      <![CDATA[Send Keys :  [[IOSDriver:  on MAC (11e521b1-fde1-475c-85c4-951f5db512c6)] -> name: IntegerB]]]>
-    </line>
-    <line>
-      <![CDATA[Clicked :  [[IOSDriver:  on MAC (11e521b1-fde1-475c-85c4-951f5db512c6)] -> name: ComputeSumButton]]]>
-    </line>
-    <line>
-      <![CDATA[Answer is 300]]>
-    </line>
-    <line>
-      <![CDATA[Click on Alert ]]>
-    </line>
-    <line>
-      <![CDATA[Clicked :  Proxy element for: DefaultElementLocator 'By.name: show alert']]>
-    </line>
-    <line>
-      <![CDATA[Alert Title is : Cool title]]>
-    </line>
-    <line>
-      <![CDATA[Clicked :  Proxy element for: DefaultElementLocator 'By.name: show alert']]>
-    </line>
-    <line>
-      <![CDATA[Alert Title is : Cool title]]>
-    </line>
-    <line>
-      <![CDATA[Waiting for : 1 second(s)]]>
-    </line>
-    <line>
-      <![CDATA[Stop Appium Server]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="111952" started-at="2017-07-13T21:56:21Z" finished-at="2017-07-13T21:58:13Z">
+  <suite name="Default suite" duration-ms="40863" started-at="2017-07-16T01:54:29Z" finished-at="2017-07-16T01:55:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="111952" started-at="2017-07-13T21:56:21Z" finished-at="2017-07-13T21:58:13Z">
-      <class name="com.iOSTest.iOS_Test_App">
-        <test-method status="PASS" signature="bs_config()[pri:0, instance:com.iOSTest.iOS_Test_App@3632be31]" name="bs_config" is-config="true" duration-ms="8272" started-at="2017-07-14T03:26:13Z" finished-at="2017-07-14T03:26:21Z">
+    <test name="Default test" duration-ms="40863" started-at="2017-07-16T01:54:29Z" finished-at="2017-07-16T01:55:10Z">
+      <class name="com.ios.Test_iOS_App">
+        <test-method status="PASS" signature="before_config()[pri:0, instance:com.ios.Test_iOS_App@13deb50e]" name="before_config" is-config="true" duration-ms="8096" started-at="2017-07-16T07:24:29Z" finished-at="2017-07-16T07:24:37Z">
           <reporter-output>
-            <line>
-              <![CDATA[Run Appium Server]]>
-            </line>
-            <line>
-              <![CDATA[Start Execution]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- bs_config -->
-        <test-method status="PASS" signature="test_ios_App()[pri:0, instance:com.iOSTest.iOS_Test_App@3632be31]" name="test_ios_App" duration-ms="110411" started-at="2017-07-14T03:26:21Z" finished-at="2017-07-14T03:28:12Z">
+        </test-method> <!-- before_config -->
+        <test-method status="PASS" signature="Test_iOS_App_Ui_Catalog()[pri:0, instance:com.ios.Test_iOS_App@13deb50e]" name="Test_iOS_App_Ui_Catalog" duration-ms="32705" started-at="2017-07-16T07:24:37Z" finished-at="2017-07-16T07:25:10Z">
           <reporter-output>
-            <line>
-              <![CDATA[Set Desired Capabilities - iOS]]>
-            </line>
-            <line>
-              <![CDATA[Launch iOSDriver]]>
-            </line>
-            <line>
-              <![CDATA[Create object of POM Class]]>
-            </line>
-            <line>
-              <![CDATA[Sum Operation]]>
-            </line>
-            <line>
-              <![CDATA[Send Keys :  [[IOSDriver:  on MAC (11e521b1-fde1-475c-85c4-951f5db512c6)] -> name: IntegerA]]]>
-            </line>
-            <line>
-              <![CDATA[Send Keys :  [[IOSDriver:  on MAC (11e521b1-fde1-475c-85c4-951f5db512c6)] -> name: IntegerB]]]>
-            </line>
-            <line>
-              <![CDATA[Clicked :  [[IOSDriver:  on MAC (11e521b1-fde1-475c-85c4-951f5db512c6)] -> name: ComputeSumButton]]]>
-            </line>
-            <line>
-              <![CDATA[Answer is 300]]>
-            </line>
-            <line>
-              <![CDATA[Click on Alert ]]>
-            </line>
-            <line>
-              <![CDATA[Clicked :  Proxy element for: DefaultElementLocator 'By.name: show alert']]>
-            </line>
-            <line>
-              <![CDATA[Alert Title is : Cool title]]>
-            </line>
-            <line>
-              <![CDATA[Clicked :  Proxy element for: DefaultElementLocator 'By.name: show alert']]>
-            </line>
-            <line>
-              <![CDATA[Alert Title is : Cool title]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- test_ios_App -->
-        <test-method status="PASS" signature="am_config()[pri:0, instance:com.iOSTest.iOS_Test_App@3632be31]" name="am_config" is-config="true" duration-ms="1506" started-at="2017-07-14T03:28:12Z" finished-at="2017-07-14T03:28:13Z">
+        </test-method> <!-- Test_iOS_App_Ui_Catalog -->
+        <test-method status="PASS" signature="after_config()[pri:0, instance:com.ios.Test_iOS_App@13deb50e]" name="after_config" is-config="true" duration-ms="29" started-at="2017-07-16T07:25:10Z" finished-at="2017-07-16T07:25:10Z">
           <reporter-output>
-            <line>
-              <![CDATA[Waiting for : 1 second(s)]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- am_config -->
-        <test-method status="PASS" signature="as_config()[pri:0, instance:com.iOSTest.iOS_Test_App@3632be31]" name="as_config" is-config="true" duration-ms="7" started-at="2017-07-14T03:28:14Z" finished-at="2017-07-14T03:28:14Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Stop Appium Server]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- as_config -->
-      </class> <!-- com.iOSTest.iOS_Test_App -->
+        </test-method> <!-- after_config -->
+      </class> <!-- com.ios.Test_iOS_App -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
