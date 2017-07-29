@@ -53,7 +53,7 @@ public class Base_Class {
 			e.printStackTrace();
 		}
 	}*/
-	@BeforeSuite
+	
 	public void startServer() throws InterruptedException, IOException{
 		Reporter.log("Start Execution",true);
 		  process = Runtime.getRuntime().exec("/usr/bin/open -a /Applications/Utilities/Terminal.app /bin/bash /usr/local/bin/appium");
@@ -93,16 +93,18 @@ public class Base_Class {
 	}
 	
 	public WebElement waitForElement(WebElement wb){
+		Reporter.log("Waiting for Element : "+wb,true);
 		WebDriverWait wait = new WebDriverWait(driver, 15);
 		return wait.until(ExpectedConditions.visibilityOf(wb));
 	}
 	public Alert waitForAlert(){
+		Reporter.log("Waiting for Alert ",true);
+
 		WebDriverWait wait = new WebDriverWait(driver, 15);
 		return wait.until(ExpectedConditions.alertIsPresent());
 	}
 	
 	public boolean isElementDisplayed(WebElement wb){
-		
 		if(wb.isDisplayed())
 			return true;
 		else 

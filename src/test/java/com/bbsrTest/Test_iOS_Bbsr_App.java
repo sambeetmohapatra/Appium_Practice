@@ -11,6 +11,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Reporter;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import io.appium.java_client.ios.IOSDriver;
@@ -21,9 +22,11 @@ import io.appium.java_client.ios.IOSDriver;
  */
 public class Test_iOS_Bbsr_App extends Base_Class{
 	private HashMap<String, String> data;
-
+	
 	@Test
-	public void test_iOS_Bbsr_App_01() throws Exception {
+	@Parameters("device")
+	public void test_iOS_Bbsr_App_01(String device) throws Exception {
+		startServer();
 		
 		data = new HashMap<String, String>();
 		data.put("name", "sambeet");
@@ -31,18 +34,20 @@ public class Test_iOS_Bbsr_App extends Base_Class{
 		data.put("email", "sambeetabc2@icloud.com");
 		data.put("address", "plot-295/2312, Jayadev Vihar, Odisha");
 		data.put("query", "Which is the best place to Visit in Dec - march ");
-
 		
 		Reporter.log("Set Desired Capabilities - iOS",true);
 		DesiredCapabilities caps = new DesiredCapabilities();
+		
+		
+		if(device.equalsIgnoreCase("iphone")) 
+		caps.setCapability("deviceName", "iPhone 6");
+		else if(device.equalsIgnoreCase("ipad")) 
+			caps.setCapability("deviceName", "iPad Air 2");
+		
 		caps.setCapability("platformName", "iOS");
 		caps.setCapability("platformVersion", "10.3"); 
-		caps.setCapability("deviceName", "iPhone 6");
 		caps.setCapability("noReset", true);
-		
-		//App is installed 
 		caps.setCapability("bundleId", "com.sam.Bhubaneswar");
-		
 		// Launch iOSDriver
 		Reporter.log("Launch iOSDriver",true);
 		driver = new IOSDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), caps);
