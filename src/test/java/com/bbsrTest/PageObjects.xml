@@ -24,7 +24,7 @@
    		<email  type ="xpath" platform="iOS">//XCUIElementTypeTextField[@label='email']</email>
    		<address  type ="xpath" platform="iOS">//XCUIElementTypeTextField[@label='address']</address>
   		<submitBtn  type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='Submit']</submitBtn>
-  		 <querytxtbox  type ="xpath" platform="iOS">//XCUIElementTypeTextView[@name='Query']</querytxtbox>
+  		<querytxtbox  type ="xpath" platform="iOS">//XCUIElementTypeTextView[@name='Query']</querytxtbox>
   		
 
 </bhubaneswar_supportpage>
