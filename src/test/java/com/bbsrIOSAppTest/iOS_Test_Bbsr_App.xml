@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iOS_Test_Bbsr_App">
+	<parameter name="device" value="ipad"/>
+  <test name="Test_iPad">
+    <classes>
+      <class name="com.bbsrIOSAppTest.iOS_Test_Bbsr_App"/>
+    </classes>
+  </test> 
+  
+</suite> <!-- Suite -->

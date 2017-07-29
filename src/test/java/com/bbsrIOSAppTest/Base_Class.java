@@ -1,4 +1,4 @@
-package com.bbsrTest;
+package com.bbsrIOSAppTest;
 
 import java.io.IOException;
 
@@ -11,6 +11,7 @@ import org.testng.Reporter;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
 
 import io.appium.java_client.ios.IOSDriver;
 
@@ -19,7 +20,7 @@ import io.appium.java_client.ios.IOSDriver;
 public class Base_Class {
 	
 	public static IOSDriver<WebElement> driver;
-
+	public String device;
 	private Process process;
 
 	/*public void startServer() {
@@ -72,6 +73,15 @@ public class Base_Class {
 			e.printStackTrace();
 		}
 		
+	}
+
+	@Parameters("device")
+	@BeforeSuite
+	public void bs_config(String device) throws InterruptedException, IOException{
+		// Run Appium Server
+		this.device = device;
+				Reporter.log("Run Appium Server",true);
+				startServer();
 	}
 	
 	@AfterSuite

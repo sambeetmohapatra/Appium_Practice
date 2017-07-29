@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.bbsrTest;
+package com.bbsrIOSAppTest;
 
 import java.io.File;
 
@@ -20,7 +20,7 @@ import org.w3c.dom.NodeList;
  *
  */
 interface Constants {
-	String PageObjects_FILENAME="./src/test/java/com/bbsrTest/PageObjects.xml";
+	String PageObjects_FILENAME="./src/test/java/com/bbsrIOSAppTest/PageObjects.xml";
 }
 public class PageObjects_XML_Parser implements Constants {
 	

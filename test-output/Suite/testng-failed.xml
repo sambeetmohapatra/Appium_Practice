@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [iOS_Test_Bbsr_App]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <parameter name="device" value="ipad"/>
   <test name="Test_iPad(failed)">
     <classes>
@@ -13,4 +13,4 @@
       </class> <!-- com.bbsrIOSAppTest.iOS_Test_Bbsr_App -->
     </classes>
   </test> <!-- Test_iPad(failed) -->
-</suite> <!-- Failed suite [iOS_Test_Bbsr_App] -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.bbsrTest;
+package com.bbsrIOSAppTest;
 
 import java.net.URL;
 import java.util.HashMap;
@@ -11,22 +11,21 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Reporter;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import io.appium.java_client.ios.IOSDriver;
 
 /**
  * @author sambeetmohapatra
- * PAGE OBJECTS FROM XML FILE 
+ * iOS_Test_App
  */
-public class Test_iOS_Bbsr_App extends Base_Class{
+public class iOS_Test_Bbsr_App extends Base_Class {
+
 	private HashMap<String, String> data;
 	
 	@Test
-	@Parameters("device")
-	public void test_iOS_Bbsr_App_01(String device) throws Exception {
-		startServer();
+	public void test_iOS_Test_Bbsr_App() throws Exception{
+		
 		
 		data = new HashMap<String, String>();
 		data.put("name", "sambeet");
@@ -41,8 +40,10 @@ public class Test_iOS_Bbsr_App extends Base_Class{
 		
 		if(device.equalsIgnoreCase("iphone")) 
 		caps.setCapability("deviceName", "iPhone 6");
+		
 		else if(device.equalsIgnoreCase("ipad")) 
 			caps.setCapability("deviceName", "iPad Air 2");
+		
 		
 		caps.setCapability("platformName", "iOS");
 		caps.setCapability("platformVersion", "10.3"); 

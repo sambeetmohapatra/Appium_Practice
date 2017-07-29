@@ -2,6 +2,9 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
+      <![CDATA[Run Appium Server]]>
+    </line>
+    <line>
       <![CDATA[Start Execution]]>
     </line>
     <line>
@@ -20,7 +23,10 @@
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+    </line>
+    <line>
+      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
     </line>
     <line>
       <![CDATA[Step 2 : Click on Images button in Nav bar]]>
@@ -29,13 +35,22 @@
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+    </line>
+    <line>
+      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
     </line>
     <line>
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Clicked :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
     </line>
     <line>
       <![CDATA[Step 3 : Click on More button in Nav bar]]>
@@ -44,13 +59,22 @@
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+    </line>
+    <line>
+      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
     </line>
     <line>
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Clicked :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
     </line>
     <line>
       <![CDATA[Step 4 : Validate Support is displayed]]>
@@ -59,7 +83,10 @@
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]]]>
+    </line>
+    <line>
+      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]]]>
     </line>
     <line>
       <![CDATA[Step 5 : Validate Elements displayed in the Support Section]]>
@@ -68,43 +95,64 @@
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]]]>
+    </line>
+    <line>
+      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]]]>
     </line>
     <line>
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+    </line>
+    <line>
+      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
     </line>
     <line>
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+    </line>
+    <line>
+      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
     </line>
     <line>
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+    </line>
+    <line>
+      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
     </line>
     <line>
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+    </line>
+    <line>
+      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
     </line>
     <line>
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+    </line>
+    <line>
+      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
     </line>
     <line>
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+    </line>
+    <line>
+      <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
     </line>
     <line>
       <![CDATA[Step 6 : Enter Data and Click on Submit Button]]>
@@ -113,43 +161,85 @@
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Send Data :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+    </line>
+    <line>
+      <![CDATA[Send Data :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
     </line>
     <line>
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Send Data :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+    </line>
+    <line>
+      <![CDATA[Send Data :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
     </line>
     <line>
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Send Data :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+    </line>
+    <line>
+      <![CDATA[Send Data :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
     </line>
     <line>
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Send Data :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+    </line>
+    <line>
+      <![CDATA[Send Data :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
     </line>
     <line>
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Send Data :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+    </line>
+    <line>
+      <![CDATA[Send Data :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
     </line>
     <line>
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]]]>
+    </line>
+    <line>
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Clicked :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
     </line>
     <line>
       <![CDATA[Step 7 : Wait for and verify the alert is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Alert ]]>
     </line>
     <line>
       <![CDATA[Step 8 : Navigate to Home Screen ]]>
@@ -158,16 +248,32 @@
       <![CDATA[Finding Element by xpath ]]>
     </line>
     <line>
-      <![CDATA[Clicked :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='Featured']]]]>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Featured']]]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Featured']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Featured']]]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="60829" started-at="2017-07-29T01:01:18Z" finished-at="2017-07-29T01:02:19Z">
+  <suite name="iOS_Test_Bbsr_App" duration-ms="60001" started-at="2017-07-29T16:43:46Z" finished-at="2017-07-29T16:44:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="60829" started-at="2017-07-29T01:01:18Z" finished-at="2017-07-29T01:02:19Z">
-      <class name="com.bbsrTest.Test_iOS_Bbsr_App">
-        <test-method status="PASS" signature="startServer()[pri:0, instance:com.bbsrTest.Test_iOS_Bbsr_App@31ef45e3]" name="startServer" is-config="true" duration-ms="8141" started-at="2017-07-29T06:31:10Z" finished-at="2017-07-29T06:31:18Z">
+    <test name="Test_iPad" duration-ms="60001" started-at="2017-07-29T16:43:46Z" finished-at="2017-07-29T16:44:46Z">
+      <class name="com.bbsrIOSAppTest.iOS_Test_Bbsr_App">
+        <test-method status="PASS" signature="bs_config(java.lang.String)[pri:0, instance:com.bbsrIOSAppTest.iOS_Test_Bbsr_App@73846619]" name="bs_config" is-config="true" duration-ms="8160" started-at="2017-07-29T22:13:37Z" finished-at="2017-07-29T22:13:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ipad]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[Run Appium Server]]>
+            </line>
             <line>
               <![CDATA[Start Execution]]>
             </line>
@@ -175,8 +281,8 @@
               <![CDATA[Waiting for : 8 second(s)]]>
             </line>
           </reporter-output>
-        </test-method> <!-- startServer -->
-        <test-method status="PASS" signature="test_iOS_Bbsr_App_01()[pri:0, instance:com.bbsrTest.Test_iOS_Bbsr_App@31ef45e3]" name="test_iOS_Bbsr_App_01" duration-ms="60802" started-at="2017-07-29T06:31:18Z" finished-at="2017-07-29T06:32:19Z">
+        </test-method> <!-- bs_config -->
+        <test-method status="PASS" signature="test_iOS_Test_Bbsr_App()[pri:0, instance:com.bbsrIOSAppTest.iOS_Test_Bbsr_App@73846619]" name="test_iOS_Test_Bbsr_App" duration-ms="59982" started-at="2017-07-29T22:13:46Z" finished-at="2017-07-29T22:14:46Z">
           <reporter-output>
             <line>
               <![CDATA[Set Desired Capabilities - iOS]]>
@@ -191,7 +297,10 @@
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
+            </line>
+            <line>
+              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]]]>
             </line>
             <line>
               <![CDATA[Step 2 : Click on Images button in Nav bar]]>
@@ -200,13 +309,22 @@
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+            </line>
+            <line>
+              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
             </line>
             <line>
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Clicked :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Images']]]]>
             </line>
             <line>
               <![CDATA[Step 3 : Click on More button in Nav bar]]>
@@ -215,13 +333,22 @@
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+            </line>
+            <line>
+              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
             </line>
             <line>
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Clicked :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='More']]]]>
             </line>
             <line>
               <![CDATA[Step 4 : Validate Support is displayed]]>
@@ -230,7 +357,10 @@
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]]]>
+            </line>
+            <line>
+              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]]]>
             </line>
             <line>
               <![CDATA[Step 5 : Validate Elements displayed in the Support Section]]>
@@ -239,43 +369,64 @@
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]]]>
+            </line>
+            <line>
+              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]]]>
             </line>
             <line>
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+            </line>
+            <line>
+              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
             </line>
             <line>
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+            </line>
+            <line>
+              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
             </line>
             <line>
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+            </line>
+            <line>
+              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
             </line>
             <line>
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+            </line>
+            <line>
+              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
             </line>
             <line>
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+            </line>
+            <line>
+              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
             </line>
             <line>
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+            </line>
+            <line>
+              <![CDATA[Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
             </line>
             <line>
               <![CDATA[Step 6 : Enter Data and Click on Submit Button]]>
@@ -284,43 +435,85 @@
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Send Data :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
+            </line>
+            <line>
+              <![CDATA[Send Data :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='name']]]]>
             </line>
             <line>
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Send Data :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
+            </line>
+            <line>
+              <![CDATA[Send Data :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='phone']]]]>
             </line>
             <line>
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Send Data :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
+            </line>
+            <line>
+              <![CDATA[Send Data :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='email']]]]>
             </line>
             <line>
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Send Data :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
+            </line>
+            <line>
+              <![CDATA[Send Data :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='address']]]]>
             </line>
             <line>
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Send Data :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
+            </line>
+            <line>
+              <![CDATA[Send Data :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextView[@name='Query']]]]>
             </line>
             <line>
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]]]>
+            </line>
+            <line>
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Clicked :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Submit']]]]>
             </line>
             <line>
               <![CDATA[Step 7 : Wait for and verify the alert is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Alert ]]>
             </line>
             <line>
               <![CDATA[Step 8 : Navigate to Home Screen ]]>
@@ -329,15 +522,21 @@
               <![CDATA[Finding Element by xpath ]]>
             </line>
             <line>
-              <![CDATA[Clicked :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='Featured']]]]>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Featured']]]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Featured']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Featured']]]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test_iOS_Bbsr_App_01 -->
-        <test-method status="PASS" signature="after_method()[pri:0, instance:com.bbsrTest.Test_iOS_Bbsr_App@31ef45e3]" name="after_method" is-config="true" duration-ms="531" started-at="2017-07-29T06:32:19Z" finished-at="2017-07-29T06:32:19Z">
+        </test-method> <!-- test_iOS_Test_Bbsr_App -->
+        <test-method status="PASS" signature="after_method()[pri:0, instance:com.bbsrIOSAppTest.iOS_Test_Bbsr_App@73846619]" name="after_method" is-config="true" duration-ms="550" started-at="2017-07-29T22:14:46Z" finished-at="2017-07-29T22:14:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_method -->
-      </class> <!-- com.bbsrTest.Test_iOS_Bbsr_App -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.bbsrIOSAppTest.iOS_Test_Bbsr_App -->
+    </test> <!-- Test_iPad -->
+  </suite> <!-- iOS_Test_Bbsr_App -->
 </testng-results>
