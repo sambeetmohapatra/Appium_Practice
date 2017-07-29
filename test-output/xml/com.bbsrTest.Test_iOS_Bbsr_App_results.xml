@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="60.802">
+  <properties />
+  
+  
+            <testcase name="test_iOS_Bbsr_App_01" time="60.802" classname="com.bbsrTest.Test_iOS_Bbsr_App" />
+      
+</testsuite>

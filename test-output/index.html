@@ -5,7 +5,7 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.ios.Test_iOS_App" hash-for-method="Test_iOS_App_Ui_Catalog">Test_iOS_App_Ui_Catalog</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bbsrTest.Test_iOS_Bbsr_App" hash-for-method="test_iOS_Bbsr_App_01">test_iOS_Bbsr_App_01</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +120,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.ios.Test_iOS_App</span>
+              <span class="class-name">com.bbsrTest.Test_iOS_Bbsr_App</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Test_iOS_App_Ui_Catalog">
-                  </a> <!-- Test_iOS_App_Ui_Catalog -->
-                  <span class="method-name">Test_iOS_App_Ui_Catalog</span>
+                  <a name="test_iOS_Bbsr_App_01">
+                  </a> <!-- test_iOS_Bbsr_App_01 -->
+                  <span class="method-name">test_iOS_Bbsr_App_01</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +135,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/sx/jlcqw9hx2kd43y05t3twmkz00000gn/T/testng-eclipse-746443103/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/sx/jlcqw9hx2kd43y05t3twmkz00000gn/T/testng-eclipse--1777908771/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,7 +144,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.ios.Test_iOS_App&quot;/&gt;
+      &lt;class name=&quot;com.bbsrTest.Test_iOS_Bbsr_App&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -186,14 +186,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Test_iOS_App_Ui_Catalog')
-data.setCell(0, 2, 'com.ios.Test_iOS_App')
-data.setCell(0, 3, 32705);
+data.setCell(0, 1, 'test_iOS_Bbsr_App_01')
+data.setCell(0, 2, 'com.bbsrTest.Test_iOS_Bbsr_App')
+data.setCell(0, 3, 60802);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -204,6 +204,62 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test_iOS_Bbsr_App_01</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Set Desired Capabilities - iOS</span>
+                <span class="reporter-method-output">Launch iOSDriver</span>
+                <span class="reporter-method-output">Step 1 : Validate the Bhubaneswar Header is displayed</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]</span>
+                <span class="reporter-method-output">Step 2 : Click on Images button in Nav bar</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='Images']]</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Clicked :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='Images']]</span>
+                <span class="reporter-method-output">Step 3 : Click on More button in Nav bar</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='More']]</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Clicked :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='More']]</span>
+                <span class="reporter-method-output">Step 4 : Validate Support is displayed</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]</span>
+                <span class="reporter-method-output">Step 5 : Validate Elements displayed in the Support Section</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='name']]</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='phone']]</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='email']]</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='address']]</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='Submit']]</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextView[@name='Query']]</span>
+                <span class="reporter-method-output">Step 6 : Enter Data and Click on Submit Button</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Send Data :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='name']]</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Send Data :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='phone']]</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Send Data :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='email']]</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Send Data :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextField[@label='address']]</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Send Data :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeTextView[@name='Query']]</span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Clicked :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='Submit']]</span>
+                <span class="reporter-method-output">Step 7 : Wait for and verify the alert is displayed</span>
+                <span class="reporter-method-output">Step 8 : Navigate to Home Screen </span>
+                <span class="reporter-method-output">Finding Element by xpath </span>
+                <span class="reporter-method-output">Clicked :  [[IOSDriver:  on MAC (d6453cc7-c3dd-42a3-80db-c1e79566d6c2)] -> xpath: //XCUIElementTypeButton[@label='Featured']]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -219,19 +275,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.ios.Test_iOS_App</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">before_config</span>
+              <div class="chronological-class-name">com.bbsrTest.Test_iOS_Bbsr_App</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startServer</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-suite before -->
               <div class="test-method">
-                <span class="method-name">Test_iOS_App_Ui_Catalog</span>
-                <span class="method-start">8096 ms</span>
+                <span class="method-name">test_iOS_Bbsr_App_01</span>
+                <span class="method-start">8165 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">after_config</span>
-                <span class="method-start">40803 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">after_method</span>
+                <span class="method-start">69175 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<class>
+<common_elements name = "common_elements">
+  		<nav_bar_featured type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='Featured']</nav_bar_featured>
+  		<nav_bar_images type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='Images']</nav_bar_images>
+  		<nav_bar_more  type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='More']</nav_bar_more>
+</common_elements>
+
+<bhubaneswar_mainPage name = "bhubaneswar_mainPage">
+
+  		<bhubaneswar_header  type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@label='BHUBANESWAR']</bhubaneswar_header>
+  		<bhubaneswar_about  type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@label='About :']</bhubaneswar_about>
+   		<bhubaneswar_text  type ="xpath" platform="iOS">//XCUIElementTypeTextView</bhubaneswar_text>
+
+</bhubaneswar_mainPage>
+
+<bhubaneswar_supportpage name = "bhubaneswar_supportpage">
+
+  		<support_header  type ="xpath" platform="iOS">//XCUIElementTypeStaticText[@label='Support']</support_header>
+  		<bhubaneswar_enquiry type ="xpath" platform="iOS">//XCUIElementTypeStaticText[contains(@label,'Enquiry')]</bhubaneswar_enquiry>
+   		<name  type ="xpath" platform="iOS">//XCUIElementTypeTextField[@label='name']</name>
+   		<phone  type ="xpath" platform="iOS">//XCUIElementTypeTextField[@label='phone']</phone>
+   		<email  type ="xpath" platform="iOS">//XCUIElementTypeTextField[@label='email']</email>
+   		<address  type ="xpath" platform="iOS">//XCUIElementTypeTextField[@label='address']</address>
+  		<submitBtn  type ="xpath" platform="iOS">//XCUIElementTypeButton[@label='Submit']</submitBtn>
+  		 <querytxtbox  type ="xpath" platform="iOS">//XCUIElementTypeTextView[@name='Query']</querytxtbox>
+  		
+
+</bhubaneswar_supportpage>
+
+
+
+
+</class>

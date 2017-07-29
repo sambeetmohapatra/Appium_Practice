@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.iOSTest.iOS_Test_App">
+      <class name="com.bbsrTest.Test_iOS_Bbsr_App">
         <methods>
-          <include name="am_config"/>
-          <include name="test_ios_App"/>
+          <include name="startServer"/>
+          <include name="test_iOS_Bbsr_App_01"/>
+          <include name="after_method"/>
         </methods>
-      </class> <!-- com.iOSTest.iOS_Test_App -->
+      </class> <!-- com.bbsrTest.Test_iOS_Bbsr_App -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

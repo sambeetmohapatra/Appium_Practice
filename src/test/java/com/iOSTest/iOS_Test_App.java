@@ -44,8 +44,8 @@ public class iOS_Test_App extends Base_Class {
 		caps.setCapability("deviceName", "iPhone Simulator");
 		caps.setCapability("noReset", true);
 		
-		caps.setCapability("bundleid", "io.appium.TestApp");
-		caps.setCapability("app", "/Users/sambeetmohapatra/Downloads/ios-test-app-master/build/Release-iphonesimulator/TestApp.app"); 
+		caps.setCapability("bundleId", "io.appium.TestApp");
+		//caps.setCapability("app", "/Users/sambeetmohapatra/Downloads/ios-test-app-master/build/Release-iphonesimulator/TestApp.app"); 
 		// Launch iOSDriver
 		Reporter.log("Launch iOSDriver",true);
 		driver = new IOSDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), caps);
