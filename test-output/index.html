@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-iOS_Test_Bbsr_App">
-              <span class="suite-name border-passed">iOS_Test_Bbsr_App</span>
+              <span class="suite-name border-failed">iOS_Test_Bbsr_App</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-iOS_Test_Bbsr_App" class="hide-methods passed suite-iOS_Test_Bbsr_App"> (hide)</a> <!-- hide-methods passed suite-iOS_Test_Bbsr_App -->
-                      <a href="#" panel-name="suite-iOS_Test_Bbsr_App" class="show-methods passed suite-iOS_Test_Bbsr_App"> (show)</a> <!-- show-methods passed suite-iOS_Test_Bbsr_App -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-iOS_Test_Bbsr_App" class="hide-methods failed suite-iOS_Test_Bbsr_App"> (hide)</a> <!-- hide-methods failed suite-iOS_Test_Bbsr_App -->
+                      <a href="#" panel-name="suite-iOS_Test_Bbsr_App" class="show-methods failed suite-iOS_Test_Bbsr_App"> (show)</a> <!-- show-methods failed suite-iOS_Test_Bbsr_App -->
                     </span>
-                    <div class="method-list-content passed suite-iOS_Test_Bbsr_App">
+                    <div class="method-list-content failed suite-iOS_Test_Bbsr_App">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-iOS_Test_Bbsr_App" title="com.bbsrIOSAppTest.iOS_Test_Bbsr_App" hash-for-method="test_iOS_Test_Bbsr_App">test_iOS_Test_Bbsr_App</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-iOS_Test_Bbsr_App -->
+                    </div> <!-- method-list-content failed suite-iOS_Test_Bbsr_App -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-iOS_Test_Bbsr_App" class="panel iOS_Test_Bbsr_App">
-          <div class="suite-iOS_Test_Bbsr_App-class-passed">
+          <div class="suite-iOS_Test_Bbsr_App-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.bbsrIOSAppTest.iOS_Test_Bbsr_App</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,10 +128,27 @@
                   <a name="test_iOS_Test_Bbsr_App">
                   </a> <!-- test_iOS_Test_Bbsr_App -->
                   <span class="method-name">test_iOS_Test_Bbsr_App</span>
+                  <div class="stack-trace">org.openqa.selenium.UnsupportedCommandException: Unknown mobile command &quot;presskey&quot;. Only scroll,swipe,pinch,doubleTap,twoFingerTap,touchAndHold,tap,dragFromToForDuration commands are supported. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;Sambeets-MacBook-Air.local&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{networkConnectionEnabled=false, noReset=true, bundleId=com.sam.Bhubaneswar, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, platformVersion=10.3, webStorageEnabled=false, locationContextEnabled=false, browserName=, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, udid=65D01ABC-F71D-4745-82BB-3F85678E2B91}]
+Session ID: a2a5833f-cd7e-4d14-b97b-ae45c5163d3d
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:577)
+	at com.bbsrIOSAppTest.iOS_Test_Bbsr_App.test_iOS_Test_Bbsr_App(iOS_Test_Bbsr_App.java:94)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-iOS_Test_Bbsr_App-class-passed -->
+          </div> <!-- suite-iOS_Test_Bbsr_App-class-failed -->
         </div> <!-- panel iOS_Test_Bbsr_App -->
         <div panel-name="test-xml-iOS_Test_Bbsr_App" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -142,12 +159,12 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;iOS_Test_Bbsr_App&quot;&gt;
-  &lt;parameter name=&quot;device&quot; value=&quot;ipad&quot;/&gt;
-  &lt;test name=&quot;Test_iPad&quot;&gt;
+  &lt;parameter name=&quot;device&quot; value=&quot;iphone&quot;/&gt;
+  &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.bbsrIOSAppTest.iOS_Test_Bbsr_App&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test_iPad --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- iOS_Test_Bbsr_App --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,7 +176,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test_iPad (1 class)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -189,12 +206,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_iOS_Test_Bbsr_App')
 data.setCell(0, 2, 'com.bbsrIOSAppTest.iOS_Test_Bbsr_App')
-data.setCell(0, 3, 59982);
+data.setCell(0, 3, 37653);
 window.suiteTableData['iOS_Test_Bbsr_App']= { tableData: data, tableDiv: 'times-div-iOS_Test_Bbsr_App'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 59 seconds</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-iOS_Test_Bbsr_App">
               </div> <!-- times-div-iOS_Test_Bbsr_App -->
             </div> <!-- times-div -->
@@ -212,84 +229,67 @@ return data;
                 <span class="reporter-method-output">Launch iOSDriver</span>
                 <span class="reporter-method-output">Step 1 : Validate the Bhubaneswar Header is displayed</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]</span>
-                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]</span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeStaticText[@label='BHUBANESWAR']]</span>
                 <span class="reporter-method-output">Step 2 : Click on Images button in Nav bar</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Images']]</span>
-                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Images']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeButton[@label='Images']]</span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeButton[@label='Images']]</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Images']]</span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Images']]</span>
-                <span class="reporter-method-output">Clicked :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Images']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeButton[@label='Images']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeButton[@label='Images']]</span>
+                <span class="reporter-method-output">Clicked :  [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeButton[@label='Images']]</span>
                 <span class="reporter-method-output">Step 3 : Click on More button in Nav bar</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='More']]</span>
-                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='More']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeButton[@label='More']]</span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeButton[@label='More']]</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='More']]</span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='More']]</span>
-                <span class="reporter-method-output">Clicked :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='More']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeButton[@label='More']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeButton[@label='More']]</span>
+                <span class="reporter-method-output">Clicked :  [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeButton[@label='More']]</span>
                 <span class="reporter-method-output">Step 4 : Validate Support is displayed</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]</span>
-                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]</span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeStaticText[@label='Support']]</span>
                 <span class="reporter-method-output">Step 5 : Validate Elements displayed in the Support Section</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]</span>
-                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]</span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='name']]</span>
-                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='name']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='name']]</span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='name']]</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='phone']]</span>
-                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='phone']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='phone']]</span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='phone']]</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='email']]</span>
-                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='email']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='email']]</span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='email']]</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='address']]</span>
-                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='address']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='address']]</span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='address']]</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Submit']]</span>
-                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Submit']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeButton[@label='Submit']]</span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeButton[@label='Submit']]</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextView[@name='Query']]</span>
-                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextView[@name='Query']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextView[@name='Query']]</span>
+                <span class="reporter-method-output">Validating Element by Displayed [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextView[@name='Query']]</span>
                 <span class="reporter-method-output">Step 6 : Enter Data and Click on Submit Button</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='name']]</span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='name']]</span>
-                <span class="reporter-method-output">Send Data :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='name']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='name']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='name']]</span>
+                <span class="reporter-method-output">Send Data :  [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='name']]</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='phone']]</span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='phone']]</span>
-                <span class="reporter-method-output">Send Data :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='phone']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='phone']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='phone']]</span>
+                <span class="reporter-method-output">Send Data :  [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='phone']]</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='email']]</span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='email']]</span>
-                <span class="reporter-method-output">Send Data :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='email']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='email']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='email']]</span>
+                <span class="reporter-method-output">Send Data :  [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='email']]</span>
                 <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='address']]</span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='address']]</span>
-                <span class="reporter-method-output">Send Data :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextField[@label='address']]</span>
-                <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextView[@name='Query']]</span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextView[@name='Query']]</span>
-                <span class="reporter-method-output">Send Data :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeTextView[@name='Query']]</span>
-                <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeStaticText[contains(@label,'Enquiry')]]</span>
-                <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Submit']]</span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Submit']]</span>
-                <span class="reporter-method-output">Clicked :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Submit']]</span>
-                <span class="reporter-method-output">Step 7 : Wait for and verify the alert is displayed</span>
-                <span class="reporter-method-output">Waiting for Alert </span>
-                <span class="reporter-method-output">Step 8 : Navigate to Home Screen </span>
-                <span class="reporter-method-output">Finding Element by xpath </span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Featured']]</span>
-                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Featured']]</span>
-                <span class="reporter-method-output">Clicked :  [[IOSDriver:  on MAC (b114406a-971e-469a-b63d-0c6845cace63)] -> xpath: //XCUIElementTypeButton[@label='Featured']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='address']]</span>
+                <span class="reporter-method-output">Waiting for Element : [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='address']]</span>
+                <span class="reporter-method-output">Send Data :  [[IOSDriver:  on MAC (a2a5833f-cd7e-4d14-b97b-ae45c5163d3d)] -> xpath: //XCUIElementTypeTextField[@label='address']]</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -309,16 +309,18 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.bbsrIOSAppTest.iOS_Test_Bbsr_App</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">bs_config(ipad)</span>
+                <span class="method-name">bs_config(iphone)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test_iOS_Test_Bbsr_App</span>
-                <span class="method-start">8177 ms</span>
+                <span class="method-start">8161 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">after_method</span>
-                <span class="method-start">68504 ms</span>
+                <span class="method-start">45988 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

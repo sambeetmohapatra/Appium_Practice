@@ -5,6 +5,7 @@ package com.bbsrIOSAppTest;
 
 import java.net.URL;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
@@ -87,6 +88,11 @@ public class iOS_Test_Bbsr_App extends Base_Class {
 		type(findElementByXpath("bhubaneswar_supportpage/email"), data.get("email"));
 
 		type(findElementByXpath("bhubaneswar_supportpage/address"), data.get("address"));
+		
+		/*Map<String,Object> param = new HashMap<>();
+		param.put("keySequence", "HIDE_KEYBOARD ");
+		driver.executeScript("mobile:presskey", param);*/
+		
 		driver.hideKeyboard();
 		type(findElementByXpath("bhubaneswar_supportpage/querytxtbox"), data.get("query"));
 		driver.tap(1, findElementByXpath("bhubaneswar_supportpage/bhubaneswar_enquiry"), 1000);
