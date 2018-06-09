@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [iOS_Test_Bbsr_App]">
-  <parameter name="device" value="iphone"/>
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.bbsrIOSAppTest.iOS_Test_Bbsr_App">
+      <class name="com.igs.InstagramLikes">
         <methods>
-          <include name="bs_config"/>
-          <include name="test_iOS_Test_Bbsr_App"/>
-          <include name="after_method"/>
+          <include name="test_instagram_likes"/>
+          <include name="bm"/>
+          <include name="am"/>
         </methods>
-      </class> <!-- com.bbsrIOSAppTest.iOS_Test_Bbsr_App -->
+      </class> <!-- com.igs.InstagramLikes -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [iOS_Test_Bbsr_App] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

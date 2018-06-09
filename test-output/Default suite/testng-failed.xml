@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.bbsrTest.Test_iOS_Bbsr_App">
+      <class name="com.igs.InstagramLikes">
         <methods>
-          <include name="startServer"/>
-          <include name="test_iOS_Bbsr_App_01"/>
-          <include name="after_method"/>
+          <include name="test_instagram_likes"/>
+          <include name="bm"/>
+          <include name="am"/>
         </methods>
-      </class> <!-- com.bbsrTest.Test_iOS_Bbsr_App -->
+      </class> <!-- com.igs.InstagramLikes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
