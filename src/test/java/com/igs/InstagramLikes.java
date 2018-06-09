@@ -76,9 +76,9 @@ public class InstagramLikes extends Mobile_Utility{
 		waitForElement(home.Thumbs_Up_Btn);
 		if(home.Thumbs_Up_Btn.isDisplayed() || home.Wallpaper_Image.isDisplayed()) {
 			Assert.assertTrue(true);
-			for(int i =0;i<noOfTimes;i++) {
+			for(int i =1;i<=noOfTimes;i++) {
 			customWait(5); //Wait 5 seconds
-			System.out.println("Clicked "+i+1 +" time(s)");
+			System.out.println("Clicked "+i +" time(s)");
 			click(home.Thumbs_Up_Btn);
 			if(noOfTimes!=1)
 			customWait(5); //Wait 5 seconds
