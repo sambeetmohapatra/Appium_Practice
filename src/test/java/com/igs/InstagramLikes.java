@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
@@ -27,16 +26,16 @@ import io.appium.java_client.remote.MobileCapabilityType;
  */
 public class InstagramLikes extends Mobile_Utility{
 	private DesiredCapabilities cap;
-	private String pckg ="com.developerincorp.likesforinstagram";
-	private String activity ="com.developerincorp.likesforinstagram.StartActivity";
+	private String pckg ="com.mixappgood.libest";
+	private String activity ="com.mixappgood.libest.StartActivity";
 	public Home_Page_POM home;
 	
-	private int noOfTimes = 130; //SELECT THE NUMBER OF TIMES LIKES SHOULD BE CLICKED
+	private int noOfTimes = 500; //SELECT THE NUMBER OF TIMES LIKES SHOULD BE CLICKED
 	private static double value_existing;
 
 	@BeforeMethod
 	public void bm() throws Exception {
-		startServer();
+		//startServer();
 		cap = new DesiredCapabilities();
 		cap.setCapability("deviceName", "Nexus 5"); // wifi
 		cap.setCapability("platformName", "ANDROID");
@@ -53,19 +52,25 @@ public class InstagramLikes extends Mobile_Utility{
 		driver= new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
 		home = new Home_Page_POM(driver);
 		Reporter.log("PreRequsite : Wait For Main Page ",true);
-		//customWait(10);
+		customWait(10);
 		
 		//Step 1 : Go To Likes Tab 
 		Reporter.log("Step 1 : Go To Likes Tab ",true);
 		waitForElement(home.Likes_header_label);
 		
 		//Calculate existing likes
-		waitForElement(home.Likes_header_label);
 		 value_existing = Double.parseDouble(home.Likes_header_label.getAttribute("text").trim());
 		double ExistingLikesEarned = Math.round(value_existing * 100D) / 100D;
 		Reporter.log("Existing Likes : " +ExistingLikesEarned ,true);
 		if(home.Likes_header_label.isDisplayed() ||home.Rate_Btn.isDisplayed() ) {
+			customWait(10); //Wait 10 seconds
 			click(home.Like_Btn);
+			while(true) {
+			if(home.Thumbs_Up_Btn.isDisplayed() || home.Wallpaper_Image.isDisplayed()) 
+				break;
+			else 
+				click(home.Like_Btn);
+			}
 			Assert.assertTrue(true);
 		}
 		else
@@ -77,13 +82,27 @@ public class InstagramLikes extends Mobile_Utility{
 		if(home.Thumbs_Up_Btn.isDisplayed() || home.Wallpaper_Image.isDisplayed()) {
 			Assert.assertTrue(true);
 			for(int i =1;i<=noOfTimes;i++) {
-			customWait(5); //Wait 5 seconds
-			System.out.println("Clicked "+i +" time(s)");
-			click(home.Thumbs_Up_Btn);
-			if(noOfTimes!=1)
-			customWait(5); //Wait 5 seconds
-			}
+			customWait(9); 
+			
+				while(true) {
+				try {
+					(home.Thumbs_Up_Btn).click();
+					Reporter.log("Clicked "+i +" time(s)",true);
+					customWait(2); 
+					break;
+					}
+					catch(Exception e) {
+						goBack();
+						break;
+					}
+					
+					}
+				if(noOfTimes!=1)
+					customWait(5); //Wait 5 seconds
+				}
+			
 		}
+			
 			else
 				Assert.fail("Likes Page Not Displayed correctly");
 				
@@ -112,24 +131,8 @@ public class InstagramLikes extends Mobile_Utility{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		stopServer();
-	}
-	public void buyLikes(int imageIndex,int BuyQuantity, Home_Page_POM home) {
-		
-		if(BuyQuantity<value_existing) {
-			waitForElement(home.Links_editbox);
-			Assert.assertTrue(home.Links_editbox.isDisplayed(),"Links EditBox Not Displayed");
-			click(driver.findElement(By.xpath("//android.widget.GridView[@resource-id='com.developerincorp.likesforinstagram:id/grid_view']//android.widget.ImageView[@index='"+imageIndex+"'+]")));
-			waitForElement(home.Image_details_view);
-			if(home.Image_details_view.isDisplayed()) {
-				click(driver.findElement(By.xpath("//android.widget.Button[@resource-id='com.developerincorp.likesforinstagram:id/btn"+BuyQuantity+"']")));
-			}
-			customWait(2);
-			click(home.Back_btn);
+		//stopServer();
 		}
 	}
 	
-	
-	
-}
 

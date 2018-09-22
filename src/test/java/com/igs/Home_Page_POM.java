@@ -22,7 +22,7 @@ public class Home_Page_POM  {
 	
 
 	/* ---------------  Top Header Navigation ---------------*/
-	@FindBy(xpath="//android.widget.RelativeLayout//android.widget.TextView[@resource-id='com.developerincorp.likesforinstagram:id/lblLikes']")
+	@FindBy(id="com.mixappgood.libest:id/lblLikes")
 	public WebElement Likes_header_label;
 	
 	@FindBy(xpath="//android.widget.Button[@text='rate the app']")
@@ -43,26 +43,17 @@ public class Home_Page_POM  {
 	@FindBy(xpath="//android.widget.RelativeLayout//*[contains(@class,'v7.app.ActionBar') and @index='3']")
 	public WebElement Buy_More_Btn;
 	
-	@FindBy(xpath="//android.widget.RelativeLayout//android.widget.EditText[@resource-id='com.developerincorp.likesforinstagram:id/link']")
-	public WebElement Links_editbox;
-	
-	@FindBy(xpath="//android.widget.RelativeLayout//android.widget.ImageView[@resource-id='com.developerincorp.likesforinstagram:id/imgDetails']")
-	public WebElement Image_details_view;
-	
-	@FindBy(xpath="//android.widget.ImageButton[@resource-id='com.developerincorp.likesforinstagram:id/btnBack']")
-	public WebElement Back_btn;
-
 
 	
 	/* ---------------  LIKES Screen ---------------*/
 
-	@FindBy(id="com.developerincorp.likesforinstagram:id/btnLike")
+	@FindBy(id="com.mixappgood.libest:id/btnLike")
 	public WebElement Thumbs_Up_Btn;
 	
-	@FindBy(id="com.developerincorp.likesforinstagram:id/btnSkip")
+	@FindBy(id="com.mixappgood.libest:id/btnSkip")
 	public WebElement Skip_Btn;
 	
-	@FindBy(id="com.developerincorp.likesforinstagram:id/glide_slider_viewpager")
+	@FindBy(id="com.mixappgood.libest:id/container_yes_photo")
 	public WebElement Wallpaper_Image;
 	
 		

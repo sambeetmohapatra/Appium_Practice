@@ -4,27 +4,27 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="40.970">
+           time="62.020">
   <properties />
-            <testcase name="test_instagram_likes" time="40.970" classname="com.igs.InstagramLikes">
+            <testcase name="test_instagram_likes" time="62.020" classname="com.igs.InstagramLikes">
                 <failure type="org.openqa.selenium.TimeoutException"
-                  message="Timed out after 30 seconds waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //android.widget.RelativeLayout//android.widget.TextView[@resource-id=&apos;com.developerincorp.likesforinstagram:id/lblLikes&apos;]&apos;
+                  message="Timed out after 30 seconds waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.id: com.mixappgood.libest:id/lblLikes&apos;
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;Sambeets-MacBook-Air.local&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.2&apos;, java.version: &apos;1.8.0_131&apos;
+System info: host: &apos;Sambeets-MacBook-Air.local&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.2&apos;, java.version: &apos;1.8.0_131&apos;
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities [{appPackage=com.developerincorp.likesforinstagram, deviceScreenSize=1080x1920, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=0762a69df0eafb0d, platform=LINUX, deviceUDID=0762a69df0eafb0d, appActivity=com.developerincorp.likesforinstagram.StartActivity, desired={appPackage=com.developerincorp.likesforinstagram, appActivity=com.developerincorp.likesforinstagram.StartActivity, noReset=true, newCommandTimeout=60, platformVersion=6.0.1, platformName=Android, deviceName=Nexus 5}, newCommandTimeout=60, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Nexus 5, platformName=Android, deviceManufacturer=LGE}]
-Session ID: 79ac06ce-38be-45ff-9cef-0aca51010469"
+Capabilities [{appPackage=com.mixappgood.libest, deviceScreenSize=1080x1920, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=192.168.0.102:5556, platform=LINUX, deviceUDID=192.168.0.102:5556, appActivity=com.mixappgood.libest.StartActivity, desired={appPackage=com.mixappgood.libest, appActivity=com.mixappgood.libest.StartActivity, noReset=true, newCommandTimeout=60, platformVersion=6.0.1, platformName=Android, deviceName=Nexus 5}, newCommandTimeout=60, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Nexus 5, platformName=Android, deviceManufacturer=LGE}]
+Session ID: 681687ae-3f8b-4e86-b1f9-43f7fccb38e0"
               >
-<![CDATA[org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //android.widget.RelativeLayout//android.widget.TextView[@resource-id='com.developerincorp.likesforinstagram:id/lblLikes']'
+<![CDATA[org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: com.mixappgood.libest:id/lblLikes'
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'Sambeets-MacBook-Air.local', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_131'
+System info: host: 'Sambeets-MacBook-Air.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_131'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities [{appPackage=com.developerincorp.likesforinstagram, deviceScreenSize=1080x1920, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=0762a69df0eafb0d, platform=LINUX, deviceUDID=0762a69df0eafb0d, appActivity=com.developerincorp.likesforinstagram.StartActivity, desired={appPackage=com.developerincorp.likesforinstagram, appActivity=com.developerincorp.likesforinstagram.StartActivity, noReset=true, newCommandTimeout=60, platformVersion=6.0.1, platformName=Android, deviceName=Nexus 5}, newCommandTimeout=60, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Nexus 5, platformName=Android, deviceManufacturer=LGE}]
-Session ID: 79ac06ce-38be-45ff-9cef-0aca51010469
+Capabilities [{appPackage=com.mixappgood.libest, deviceScreenSize=1080x1920, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=192.168.0.102:5556, platform=LINUX, deviceUDID=192.168.0.102:5556, appActivity=com.mixappgood.libest.StartActivity, desired={appPackage=com.mixappgood.libest, appActivity=com.mixappgood.libest.StartActivity, noReset=true, newCommandTimeout=60, platformVersion=6.0.1, platformName=Android, deviceName=Nexus 5}, newCommandTimeout=60, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Nexus 5, platformName=Android, deviceManufacturer=LGE}]
+Session ID: 681687ae-3f8b-4e86-b1f9-43f7fccb38e0
   org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
   org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
   com.utilities.Mobile_Utility.waitForElement(Mobile_Utility.java:29)
-  com.igs.InstagramLikes.test_instagram_likes(InstagramLikes.java:60)
+  com.igs.InstagramLikes.test_instagram_likes(InstagramLikes.java:59)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -51,14 +51,14 @@ Session ID: 79ac06ce-38be-45ff-9cef-0aca51010469
   org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
   org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 254 milliseconds
+Command duration or timeout: 3.26 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'Sambeets-MacBook-Air.local', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_131'
+System info: host: 'Sambeets-MacBook-Air.local', ip: '192.168.0.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_131'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities [{appPackage=com.developerincorp.likesforinstagram, deviceScreenSize=1080x1920, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=0762a69df0eafb0d, platform=LINUX, deviceUDID=0762a69df0eafb0d, appActivity=com.developerincorp.likesforinstagram.StartActivity, desired={appPackage=com.developerincorp.likesforinstagram, appActivity=com.developerincorp.likesforinstagram.StartActivity, noReset=true, newCommandTimeout=60, platformVersion=6.0.1, platformName=Android, deviceName=Nexus 5}, newCommandTimeout=60, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Nexus 5, platformName=Android, deviceManufacturer=LGE}]
-Session ID: 79ac06ce-38be-45ff-9cef-0aca51010469
-*** Element info: {Using=xpath, value=//android.widget.RelativeLayout//android.widget.TextView[@resource-id='com.developerincorp.likesforinstagram:id/lblLikes']}
+Capabilities [{appPackage=com.mixappgood.libest, deviceScreenSize=1080x1920, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=192.168.0.102:5556, platform=LINUX, deviceUDID=192.168.0.102:5556, appActivity=com.mixappgood.libest.StartActivity, desired={appPackage=com.mixappgood.libest, appActivity=com.mixappgood.libest.StartActivity, noReset=true, newCommandTimeout=60, platformVersion=6.0.1, platformName=Android, deviceName=Nexus 5}, newCommandTimeout=60, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Nexus 5, platformName=Android, deviceManufacturer=LGE}]
+Session ID: 681687ae-3f8b-4e86-b1f9-43f7fccb38e0
+*** Element info: {Using=id, value=com.mixappgood.libest:id/lblLikes}
   sun.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
   sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
   java.lang.reflect.Constructor.newInstance(Constructor.java:423)
@@ -72,11 +72,11 @@ Session ID: 79ac06ce-38be-45ff-9cef-0aca51010469
   io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
   io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
   io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-  io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
-  io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
-  io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
-  org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+  io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:64)
+  io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+  io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+  org.openqa.selenium.By$ById.findElement(By.java:218)
   org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
   io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
   io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
@@ -90,7 +90,7 @@ Session ID: 79ac06ce-38be-45ff-9cef-0aca51010469
   org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
   org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
   com.utilities.Mobile_Utility.waitForElement(Mobile_Utility.java:29)
-  com.igs.InstagramLikes.test_instagram_likes(InstagramLikes.java:60)
+  com.igs.InstagramLikes.test_instagram_likes(InstagramLikes.java:59)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
