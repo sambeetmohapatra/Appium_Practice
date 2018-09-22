@@ -82,7 +82,7 @@ public class InstagramLikes extends Mobile_Utility{
 		if(home.Thumbs_Up_Btn.isDisplayed() || home.Wallpaper_Image.isDisplayed()) {
 			Assert.assertTrue(true);
 			for(int i =1;i<=noOfTimes;i++) {
-			customWait(9); 
+			customWait(10); 
 			
 				while(true) {
 				try {
