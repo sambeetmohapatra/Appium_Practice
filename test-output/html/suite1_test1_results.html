@@ -3,22 +3,24 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - Default test</title>
+  <title>Test Results Report - Increase Likes in Best Likes App on Android</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="reportng.js"></script>
 </head>
 <body>
-<h1>Default test</h1>
+<h1>Increase Likes in Best Likes App on Android</h1>
 <p>
-  Test duration: 65.592s
+  Test duration: 278.759s
 </p>
 
 
 
+
+
   <table class="resultsTable">
-    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
           <tr>
         <td colspan="3" class="group">com.igs.InstagramLikes</td>
       </tr>
@@ -28,7 +30,7 @@
                   <span class="description" title=" Automate and increase Instagram Likes">test_instagram_likes</span>
       </td>
   <td class="duration">
-    62.020s
+    275.452s
   </td>
   <td class="result">
         
@@ -36,119 +38,27 @@
             <div class="testOutput">
                         PreRequsite : Wait For Main Page <br />
                                 Step 1 : Go To Likes Tab <br />
+                                Existing Likes : 25.2<br />
+                                Step 2 : Increase Likes by 10 no. of Time(s)<br />
+                                Clicked 1 time(s)<br />
+                                Clicked 2 time(s)<br />
+                                Clicked 3 time(s)<br />
+                                Clicked 4 time(s)<br />
+                                Clicked 5 time(s)<br />
+                                Clicked 6 time(s)<br />
+                                Clicked 7 time(s)<br />
+                                Clicked 8 time(s)<br />
+                                Clicked 9 time(s)<br />
+                                Clicked 10 time(s)<br />
+                                Step 3 : Validate No of Likes Earned <br />
+                                 Expected Likes : 6.0<br />
+                                 Total&nbsp;&nbsp;&nbsp; Likes : 31.2<br />
                   </div>
     
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.id: com.mixappgood.libest:id/lblLikes&apos;<br/>
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;<br/>
-System info: host: &apos;Sambeets-MacBook-Air.local&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.2&apos;, java.version: &apos;1.8.0_131&apos;<br/>
-Driver info: io.appium.java_client.android.AndroidDriver<br/>
-Capabilities [{appPackage=com.mixappgood.libest, deviceScreenSize=1080x1920, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=192.168.0.102:5556, platform=LINUX, deviceUDID=192.168.0.102:5556, appActivity=com.mixappgood.libest.StartActivity, desired={appPackage=com.mixappgood.libest, appActivity=com.mixappgood.libest.StartActivity, noReset=true, newCommandTimeout=60, platformVersion=6.0.1, platformName=Android, deviceName=Nexus 5}, newCommandTimeout=60, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Nexus 5, platformName=Android, deviceManufacturer=LGE}]<br/>
-Session ID: 681687ae-3f8b-4e86-b1f9-43f7fccb38e0</b></a><br />
-    <div class="stackTrace" id="exception-0">
-              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)<br />
-              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)<br />
-              com.utilities.Mobile_Utility.waitForElement(Mobile_Utility.java:29)<br />
-              com.igs.InstagramLikes.test_instagram_likes(InstagramLikes.java:59)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:645)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:756)<br />
-              org.testng.TestRunner.run(TestRunner.java:610)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:387)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1218)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1133)<br />
-              org.testng.TestNG.run(TestNG.java:1104)<br />
-              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br />
-              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)<br/>
-Command duration or timeout: 3.26 seconds<br/>
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br/>
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;<br/>
-System info: host: &apos;Sambeets-MacBook-Air.local&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.2&apos;, java.version: &apos;1.8.0_131&apos;<br/>
-Driver info: io.appium.java_client.android.AndroidDriver<br/>
-Capabilities [{appPackage=com.mixappgood.libest, deviceScreenSize=1080x1920, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=192.168.0.102:5556, platform=LINUX, deviceUDID=192.168.0.102:5556, appActivity=com.mixappgood.libest.StartActivity, desired={appPackage=com.mixappgood.libest, appActivity=com.mixappgood.libest.StartActivity, noReset=true, newCommandTimeout=60, platformVersion=6.0.1, platformName=Android, deviceName=Nexus 5}, newCommandTimeout=60, platformVersion=6.0.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Nexus 5, platformName=Android, deviceManufacturer=LGE}]<br/>
-Session ID: 681687ae-3f8b-4e86-b1f9-43f7fccb38e0<br/>
-*** Element info: {Using=id, value=com.mixappgood.libest:id/lblLikes}</a><br />
-        <div class="stackTrace" id="exception-1">
-                      sun.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)<br />
-                      sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-                      java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
-                      org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br />
-                      org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br />
-                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)<br />
-                      io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)<br />
-                      io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />
-                      io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)<br />
-                      org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)<br />
-                      io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)<br />
-                      io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)<br />
-                      io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)<br />
-                      org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)<br />
-                      io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:64)<br />
-                      io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)<br />
-                      io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)<br />
-                      org.openqa.selenium.By$ById.findElement(By.java:218)<br />
-                      org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)<br />
-                      io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)<br />
-                      io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)<br />
-                      io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)<br />
-                      org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)<br />
-                      org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)<br />
-                      com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)<br />
-                      org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)<br />
-                      org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)<br />
-                      org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)<br />
-                      org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)<br />
-                      org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)<br />
-                      com.utilities.Mobile_Utility.waitForElement(Mobile_Utility.java:29)<br />
-                      com.igs.InstagramLikes.test_instagram_likes(InstagramLikes.java:59)<br />
-                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-                      sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-                      sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-                      java.lang.reflect.Method.invoke(Method.java:498)<br />
-                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)<br />
-                      org.testng.internal.Invoker.invokeMethod(Invoker.java:645)<br />
-                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)<br />
-                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)<br />
-                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
-                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
-                      org.testng.TestRunner.privateRun(TestRunner.java:756)<br />
-                      org.testng.TestRunner.run(TestRunner.java:610)<br />
-                      org.testng.SuiteRunner.runTest(SuiteRunner.java:387)<br />
-                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)<br />
-                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
-                      org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
-                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
-                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)<br />
-                      org.testng.TestNG.runSuitesLocally(TestNG.java:1218)<br />
-                      org.testng.TestNG.runSuites(TestNG.java:1133)<br />
-                      org.testng.TestNG.run(TestNG.java:1104)<br />
-                      org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br />
-                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
-                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
-                  </div>
-          </div>
       </td>
 </tr>
       </table>
-
-
   
 </body>
 </html>

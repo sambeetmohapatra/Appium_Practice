@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.igs.InstagramLikes">
+      <class name="com.igs.InstagramFollowers">
         <methods>
-          <include name="test_instagram_likes"/>
           <include name="bm"/>
           <include name="am"/>
+          <include name="test_instagram_followers"/>
         </methods>
-      </class> <!-- com.igs.InstagramLikes -->
+      </class> <!-- com.igs.InstagramFollowers -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

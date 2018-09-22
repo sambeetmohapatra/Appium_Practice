@@ -1,7 +1,9 @@
 package com.utilities;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.List;
+import java.util.Properties;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
@@ -99,4 +101,17 @@ public class Mobile_Utility extends Connect_Device{
 		}
 	
 	}
+	
+	
+	public static String getProperty(String Skey,String File) {
+		Properties prop=null;
+		try {
+		FileInputStream fis= new FileInputStream(File);
+		 prop= new Properties();
+		prop.load(fis);
+		}
+		catch(Exception e) {
+		}
+		return prop.getProperty(Skey);
+		}
 }

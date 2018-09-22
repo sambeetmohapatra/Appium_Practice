@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Increase Followers in  Followers App on Android"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="210.084">
+  <properties />
+  
+  
+            <testcase name="test_instagram_followers" time="210.084" classname="com.igs.InstagramFollowers" />
+      
+</testsuite>

@@ -25,6 +25,8 @@ public class Home_Page_POM  {
 	@FindBy(id="com.mixappgood.libest:id/lblLikes")
 	public WebElement Likes_header_label;
 	
+	
+	
 	@FindBy(xpath="//android.widget.Button[@text='rate the app']")
 	public WebElement Rate_Btn;
 	
@@ -56,7 +58,24 @@ public class Home_Page_POM  {
 	@FindBy(id="com.mixappgood.libest:id/container_yes_photo")
 	public WebElement Wallpaper_Image;
 	
+	
+	@FindBy(id="com.mixappgood.libest:id/text_no_photo")
+	public WebElement No_Wallpaper_Text;
+	@FindBy(id="com.mixappgood.libest:id/container_no_photo")
+	public WebElement No_Wallpaper_Container;
+	@FindBy(id="com.mixappgood.libest:id/image_no_photo")
+	public WebElement No_Wallpaper_Image;
+	
+	
+	/*----------------FOLLOW SCREEN --------------------*/
+	
+	@FindBy(id="com.devmaxmil.analysis:id/textBalance")
+	public WebElement Follow_header_label;
+	
+	@FindBy(id="com.devmaxmil.analysis:id/to_follow")
+	public WebElement Thumbs_Up_Btn_Follow;
 		
-		
+	@FindBy(xpath="//android.widget.LinearLayout/android.support.v7.app.ActionBar.Tab[@index='1']")
+	public WebElement Followers_Btn;
 	}
 	

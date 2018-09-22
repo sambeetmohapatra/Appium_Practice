@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Instagram Likes" verbose="3">
-  <test name="Increase Likes in Best Likes App on Android">
+  <test name="Increase Followers in  Followers App on Android">
     <classes>
-      <class name="com.igs.InstagramLikes"/>
+        <class name="com.igs.InstagramFollowers"/>
     </classes>
   </test> 
 </suite> 
