@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Instagram Likes]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Instagram Likes]">
   <test name="Increase Followers in  Followers App on Android(failed)">
     <classes>
       <class name="com.igs.InstagramFollowers">
         <methods>
+          <include name="afterClass"/>
           <include name="bm"/>
           <include name="am"/>
+          <include name="beforeClass"/>
           <include name="test_instagram_followers"/>
         </methods>
       </class> <!-- com.igs.InstagramFollowers -->

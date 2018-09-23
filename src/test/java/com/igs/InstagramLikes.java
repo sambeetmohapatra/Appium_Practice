@@ -24,7 +24,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
  * @author sambeetmohapatra
  *
  */
-public class InstagramLikes extends Mobile_Utility{
+public class InstagramLikes extends TestBase{
 	private DesiredCapabilities cap;
 	private String pckg ="com.mixappgood.libest";
 	private String activity ="com.mixappgood.libest.StartActivity";
@@ -48,6 +48,9 @@ public class InstagramLikes extends Mobile_Utility{
 }
 	@Test(description=" Automate and increase Instagram Likes",priority=1,invocationCount=1)
 	public void test_instagram_likes() throws MalformedURLException {
+		System.out.println("Running Test : "+this.getClass().getName().trim());
+		System.out.println("Launching App : "+this.pckg);
+		
 		String property = getProperty("followers", "./src/test/java/com/igs/Resource.properties");
 		noOfTimes = Integer.parseInt(property.trim());
 		
@@ -97,6 +100,10 @@ public class InstagramLikes extends Mobile_Utility{
 				try {
 					if(home.No_Wallpaper_Text.isDisplayed()) {
 							home.Skip_Btn.click();
+							customWait(1);
+							home.Order_Btn.click();
+							customWait(1);
+							home.Like_Btn.click();
 							customWait(2); 
 					}
 				}
@@ -136,13 +143,7 @@ public class InstagramLikes extends Mobile_Utility{
 	public void am() {
 		if(driver!=null)
 			driver.quit();
-		try {
-			Runtime.getRuntime().exec("open /Users/sambeetmohapatra/Downloads/GIT/Appium_Practice_Android/test-output/html/index.html");
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		//stopServer();
+	
 		}
 	}
 	

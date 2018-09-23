@@ -3,62 +3,93 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - Increase Likes in Best Likes App on Android</title>
+  <title>Test Results Report - Increase Followers in  Followers App on Android</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="reportng.js"></script>
 </head>
 <body>
-<h1>Increase Likes in Best Likes App on Android</h1>
+<h1>Increase Followers in  Followers App on Android</h1>
 <p>
-  Test duration: 278.759s
+  Test duration: 17.918s
 </p>
 
 
 
-
-
   <table class="resultsTable">
-    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">com.igs.InstagramLikes</td>
+        <td colspan="3" class="group">com.igs.InstagramFollowers</td>
       </tr>
             
 <tr>
   <td class="method">
-                  <span class="description" title=" Automate and increase Instagram Likes">test_instagram_likes</span>
+                  <span class="description" title=" Automate and increase Instagram Followers">test_instagram_followers</span>
       </td>
   <td class="duration">
-    275.452s
+    0.796s
   </td>
   <td class="result">
         
     
-            <div class="testOutput">
-                        PreRequsite : Wait For Main Page <br />
-                                Step 1 : Go To Likes Tab <br />
-                                Existing Likes : 25.2<br />
-                                Step 2 : Increase Likes by 10 no. of Time(s)<br />
-                                Clicked 1 time(s)<br />
-                                Clicked 2 time(s)<br />
-                                Clicked 3 time(s)<br />
-                                Clicked 4 time(s)<br />
-                                Clicked 5 time(s)<br />
-                                Clicked 6 time(s)<br />
-                                Clicked 7 time(s)<br />
-                                Clicked 8 time(s)<br />
-                                Clicked 9 time(s)<br />
-                                Clicked 10 time(s)<br />
-                                Step 3 : Validate No of Likes Earned <br />
-                                 Expected Likes : 6.0<br />
-                                 Total&nbsp;&nbsp;&nbsp; Likes : 31.2<br />
-                  </div>
-    
+        
 
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find adb Please set the ANDROID_HOME environment variable with the Android SDK root directory path. (WARNING: The server did not provide any stacktrace information)<br/>
+Command duration or timeout: 347 milliseconds<br/>
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;<br/>
+System info: host: &apos;Sambeets-MacBook-Air.local&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.2&apos;, java.version: &apos;1.8.0_131&apos;<br/>
+Driver info: io.appium.java_client.android.AndroidDriver</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)<br />
+              io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)<br />
+              io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)<br />
+              io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)<br />
+              io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:36)<br />
+              io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)<br />
+              io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)<br />
+              io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:92)<br />
+              com.igs.InstagramFollowers.test_instagram_followers(InstagramFollowers.java:56)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:645)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:756)<br />
+              org.testng.TestRunner.run(TestRunner.java:610)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:387)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1218)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1133)<br />
+              org.testng.TestNG.run(TestNG.java:1104)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
       </td>
 </tr>
       </table>
+
+
   
 </body>
 </html>

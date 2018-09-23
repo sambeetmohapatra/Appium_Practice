@@ -24,7 +24,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
  * @author sambeetmohapatra
  *
  */
-public class InstagramFollowers extends Mobile_Utility{
+public class InstagramFollowers extends TestBase{
 	private DesiredCapabilities cap;
 	private String pckg ="com.devmaxmil.analysis";
 	private String activity ="com.devmaxmil.analysis.views.activity.StartActivity";
@@ -47,7 +47,9 @@ public class InstagramFollowers extends Mobile_Utility{
 }
 	@Test(description=" Automate and increase Instagram Followers",priority=1,invocationCount=1)
 	public void test_instagram_followers() throws MalformedURLException {
-		
+		System.out.println("Running Test : "+this.getClass().getName().trim());
+		System.out.println("Launching App : "+this.pckg);
+
 		String property = getProperty("followers", "./src/test/java/com/igs/Resource.properties");
 		noOfTimes = Integer.parseInt(property.trim());
 		
@@ -117,13 +119,6 @@ public class InstagramFollowers extends Mobile_Utility{
 	public void am() {
 		if(driver!=null)
 			driver.quit();
-		try {
-			customWait(2);
-			Runtime.getRuntime().exec("open /Users/sambeetmohapatra/Downloads/GIT/Appium_Practice_Android/test-output/html/index.html");
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		}
 	}
 	

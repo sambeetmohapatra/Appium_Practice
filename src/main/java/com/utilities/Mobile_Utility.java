@@ -114,4 +114,60 @@ public class Mobile_Utility extends Connect_Device{
 		}
 		return prop.getProperty(Skey);
 		}
+	
+	public void startServer2() {
+		try {
+			
+		String[] command = { "/usr/bin/killall", "-9", "node" };
+		Runtime.getRuntime().exec(command);
+		String[] commandProxy = { "/usr/bin/killall", "-9", "ios_webkit_debug_proxy" };
+		Runtime.getRuntime().exec(commandProxy);
+		//Start Appium Server 
+		
+		String start_server = "/usr/local/bin/node /usr/local/bin/appium";
+		process = Runtime.getRuntime().exec(start_server);
+		customWait(15);
+		/*
+				Reporter.log("Start Execution",true);
+			  	process = Runtime.getRuntime().exec("/usr/bin/open -a /Applications/Utilities/Terminal.app /bin/bash /usr/local/bin/appium");
+			    process.waitFor();	
+			    Wait(8);
+			    
+		*/
+		
+		if(process!=null)
+			System.out.println(" -  Started Appium Server");
+		else
+			System.out.println(" -  Unable to launch Appium Server");
+		
+		}
+		catch(Exception e) {
+			System.out.println(e);
+		}
+	}
+	//Stop Appium Server Method - MacBook
+	public void stopServer2(){
+		
+		process.destroy();
+		//kill appium node after end of your execution
+		String[] command = { "/usr/bin/killall", "-9", "node" };
+		try {
+		Runtime.getRuntime().exec(command);
+		System.out.println(" -  Appium server stopped.");
+		} catch (IOException e) {
+		e.printStackTrace();
+		}
+		//Kill webkit proxy for iOS
+		String[] commandProxy = { "/usr/bin/killall", "-9", "ios_webkit_debug_proxy" };
+		try {
+		Runtime.getRuntime().exec(commandProxy);
+		System.out.println(" -  iOS Webkit proxy stopped");
+		
+		} catch (IOException e) {
+			System.out.println(e);	
+		}
+		
+		
+	}
+	
 }

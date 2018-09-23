@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Instagram_Likes">
-              <span class="suite-name border-passed">Instagram Likes</span>
+              <span class="suite-name border-failed">Instagram Likes</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Instagram_Likes">
-                    <span>Run_Likes.xml</span>
+                    <span>Run_Followers.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Instagram_Likes" class="hide-methods passed suite-Instagram_Likes"> (hide)</a> <!-- hide-methods passed suite-Instagram_Likes -->
-                      <a href="#" panel-name="suite-Instagram_Likes" class="show-methods passed suite-Instagram_Likes"> (show)</a> <!-- show-methods passed suite-Instagram_Likes -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Instagram_Likes" class="hide-methods failed suite-Instagram_Likes"> (hide)</a> <!-- hide-methods failed suite-Instagram_Likes -->
+                      <a href="#" panel-name="suite-Instagram_Likes" class="show-methods failed suite-Instagram_Likes"> (show)</a> <!-- show-methods failed suite-Instagram_Likes -->
                     </span>
-                    <div class="method-list-content passed suite-Instagram_Likes">
+                    <div class="method-list-content failed suite-Instagram_Likes">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Instagram_Likes" title="com.igs.InstagramLikes" hash-for-method="test_instagram_likes">test_instagram_likes</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Instagram_Likes" title="com.igs.InstagramFollowers" hash-for-method="test_instagram_followers">test_instagram_followers</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Instagram_Likes -->
+                    </div> <!-- method-list-content failed suite-Instagram_Likes -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,38 +117,59 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Instagram_Likes" class="panel Instagram_Likes">
-          <div class="suite-Instagram_Likes-class-passed">
+          <div class="suite-Instagram_Likes-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.igs.InstagramLikes</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.igs.InstagramFollowers</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_instagram_likes">
-                  </a> <!-- test_instagram_likes -->
-                  <span class="method-name">test_instagram_likes</span>
+                  <a name="test_instagram_followers">
+                  </a> <!-- test_instagram_followers -->
+                  <span class="method-name">test_instagram_followers</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find adb Please set the ANDROID_HOME environment variable with the Android SDK root directory path. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 347 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;Sambeets-MacBook-Air.local&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.2&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:36)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:114)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:132)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:92)
+	at com.igs.InstagramFollowers.test_instagram_followers(InstagramFollowers.java:56)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                   <em>
-( Automate and increase Instagram Likes)                  </em>
+( Automate and increase Instagram Followers)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Instagram_Likes-class-passed -->
+          </div> <!-- suite-Instagram_Likes-class-failed -->
         </div> <!-- panel Instagram_Likes -->
         <div panel-name="test-xml-Instagram_Likes" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/sambeetmohapatra/Downloads/GIT/Appium_Practice_Android/src/test/java/com/igs/Run_Likes.xml</span>
+            <span class="header-content">/Users/sambeetmohapatra/Downloads/GIT/Appium_Practice_Android/src/test/java/com/igs/Run_Followers.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;3&quot; name=&quot;Instagram Likes&quot;&gt;
-  &lt;test name=&quot;Increase Likes in Best Likes App on Android&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Instagram Likes&quot;&gt;
+  &lt;test name=&quot;Increase Followers in  Followers App on Android&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.igs.InstagramLikes&quot;/&gt;
+      &lt;class name=&quot;com.igs.InstagramFollowers&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Increase Likes in Best Likes App on Android --&gt;
+  &lt;/test&gt; &lt;!-- Increase Followers in  Followers App on Android --&gt;
 &lt;/suite&gt; &lt;!-- Instagram Likes --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -160,7 +181,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Increase Likes in Best Likes App on Android (1 class)</span>
+                <span class="test-name">Increase Followers in  Followers App on Android (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -188,14 +209,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_instagram_likes')
-data.setCell(0, 2, 'com.igs.InstagramLikes')
-data.setCell(0, 3, 275452);
+data.setCell(0, 1, 'test_instagram_followers')
+data.setCell(0, 2, 'com.igs.InstagramFollowers')
+data.setCell(0, 3, 796);
 window.suiteTableData['Instagram_Likes']= { tableData: data, tableDiv: 'times-div-Instagram_Likes'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <span class="suite-total-time">Total running time: 796 ms</span>
               <div id="times-div-Instagram_Likes">
               </div> <!-- times-div-Instagram_Likes -->
             </div> <!-- times-div -->
@@ -206,28 +227,6 @@ return data;
             <span class="header-content">Reporter output for Instagram Likes</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">test_instagram_likes</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">PreRequsite : Wait For Main Page </span>
-                <span class="reporter-method-output">Step 1 : Go To Likes Tab </span>
-                <span class="reporter-method-output">Existing Likes : 25.2</span>
-                <span class="reporter-method-output">Step 2 : Increase Likes by 10 no. of Time(s)</span>
-                <span class="reporter-method-output">Clicked 1 time(s)</span>
-                <span class="reporter-method-output">Clicked 2 time(s)</span>
-                <span class="reporter-method-output">Clicked 3 time(s)</span>
-                <span class="reporter-method-output">Clicked 4 time(s)</span>
-                <span class="reporter-method-output">Clicked 5 time(s)</span>
-                <span class="reporter-method-output">Clicked 6 time(s)</span>
-                <span class="reporter-method-output">Clicked 7 time(s)</span>
-                <span class="reporter-method-output">Clicked 8 time(s)</span>
-                <span class="reporter-method-output">Clicked 9 time(s)</span>
-                <span class="reporter-method-output">Clicked 10 time(s)</span>
-                <span class="reporter-method-output">Step 3 : Validate No of Likes Earned </span>
-                <span class="reporter-method-output"> Expected Likes : 6.0</span>
-                <span class="reporter-method-output"> Total    Likes : 31.2</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Instagram_Likes" class="panel">
@@ -243,19 +242,29 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.igs.InstagramLikes</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.igs.InstagramFollowers</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">bm</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">15118 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test_instagram_likes</span>
-                <span class="method-start">9 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_instagram_followers</span>
+                <span class="method-start">15119 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">am</span>
-                <span class="method-start">275462 ms</span>
+                <span class="method-start">16079 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">16107 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
