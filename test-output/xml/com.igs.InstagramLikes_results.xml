@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Increase Likes in Best Likes App on Android"
+<testsuite name="Increase Likes and Followers in Apps on Android"
            tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="275.452">
+           time="1465.696">
   <properties />
   
   
-            <testcase name="test_instagram_likes" time="275.452" classname="com.igs.InstagramLikes" />
+            <testcase name="test_instagram_likes" time="1465.696" classname="com.igs.InstagramLikes" />
       
 </testsuite>

@@ -3,7 +3,6 @@
  */
 package com.igs;
 
-import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -14,9 +13,6 @@ import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import com.utilities.Mobile_Utility;
-
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 
@@ -51,13 +47,15 @@ public class InstagramLikes extends TestBase{
 		System.out.println("Running Test : "+this.getClass().getName().trim());
 		System.out.println("Launching App : "+this.pckg);
 		
-		String property = getProperty("followers", "./src/test/java/com/igs/Resource.properties");
-		noOfTimes = Integer.parseInt(property.trim());
+		String property = getProperty("likes", "./src/test/java/com/igs/Resource.properties");
+		int number = Integer.parseInt(property.trim());
+		noOfTimes=((number*10)/6);
 		
 		driver= new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+		//driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		home = new Home_Page_POM(driver);
 		Reporter.log("PreRequsite : Wait For Main Page ",true);
-		customWait(10);
+		customWait(15);
 		
 		//Step 1 : Go To Likes Tab 
 		Reporter.log("Step 1 : Go To Likes Tab ",true);
@@ -70,14 +68,19 @@ public class InstagramLikes extends TestBase{
 		if(home.Likes_header_label.isDisplayed() ||home.Rate_Btn.isDisplayed() ) {
 			while(true) {
 				try {
-					customWait(10);			 //Wait 10 seconds
-					click(home.Like_Btn);
-					if(home.Thumbs_Up_Btn.isDisplayed() || home.Wallpaper_Image.isDisplayed() || home.Skip_Btn.isDisplayed()) {
+				customWait(12);			
+				click(home.Like_Btn);
+				
+					if(home.Skip_Btn.isDisplayed()) {
 						break;
 						}
 					}
-				catch(Exception e) {
-					Assert.fail("Images Not Displayed");
+				catch(Exception e2) {
+					click(home.Order_Btn);
+					click(home.Like_Btn);
+					customWait(1);
+					
+					break;
 				}
 				
 			}
@@ -87,37 +90,58 @@ public class InstagramLikes extends TestBase{
 			Assert.fail("Likes Page Not Displayed");
 		
 	//Step 2 : Increase Likes
+		Reporter.log("Requested Likes : "+number ,true);
 		Reporter.log("Step 2 : Increase Likes by "+noOfTimes +" no. of Time(s)",true);
-		waitForElement(home.Thumbs_Up_Btn);
-		if(home.Thumbs_Up_Btn.isDisplayed() || home.Wallpaper_Image.isDisplayed()) {
+		customWait(5);
+		waitForElement(home.Skip_Btn);
+		if(home.Skip_Btn.isDisplayed()) {
 			Assert.assertTrue(true);
-			
 			for(int i =1;i<=noOfTimes;i++) {
-			customWait(5); 
 			
 				while(true) {
-					customWait(5); 
+					customWait(10); 
 				try {
 					if(home.No_Wallpaper_Text.isDisplayed()) {
-							home.Skip_Btn.click();
-							customWait(1);
-							home.Order_Btn.click();
-							customWait(1);
-							home.Like_Btn.click();
+							if(i==1) {
+							click(home.Skip_Btn);
+							customWait(2);
+							click(home.Order_Btn);
+							customWait(2);
+							click(home.Like_Btn);
 							customWait(2); 
+							}
+							else
+							{
+								click(home.Skip_Btn);
+								customWait(7);
+							}
 					}
-				}
-					catch(Exception e) {
-						(home.Thumbs_Up_Btn).click();
-						Reporter.log("Clicked "+i +" time(s)",true);
-						customWait(2); 
-						break;
-					}
+						}
 					
+				catch(Exception e) {
+							while(true) {	
+								try {
+									if(home.Thumbs_Up_Btn.isDisplayed()) {
+									click(home.Thumbs_Up_Btn);
+									Reporter.log("Clicked "+i +" time(s)",true);
+									customWait(4); 
+									break;
+									}
+								}
+								catch (Exception e1) {
+									goBack();
+									customWait(20); 
+									click(home.Thumbs_Up_Btn);
+									Reporter.log("Clicked : "+i +" time(s)",true);
+									customWait(4); 
+									break;
+							
+									}
+								}
+					break;
 					}
-				if(noOfTimes!=1)
-					customWait(5); //Wait 5 seconds
 				}
+			}
 			
 		}
 			
@@ -131,12 +155,12 @@ public class InstagramLikes extends TestBase{
 	click(home.Images_Btn);
 	if(home.Likes_header_label.isDisplayed()) {
 		String ExpectedLikesEarned = (Math.round((noOfTimes*0.6)* 100D) / 100D )+"";
-		Reporter.log(" Expected Likes : "+ ExpectedLikesEarned,true);
-		Reporter.log(" Total    Likes : " + Double.parseDouble(home.Likes_header_label.getAttribute("text").trim()),true);
-
+		Reporter.log("Existing Likes : "+ ExistingLikesEarned,true);
+		Reporter.log("Expected Likes : "+ ExpectedLikesEarned,true);
+		Reporter.log("Total    Likes : "+ Double.parseDouble(home.Likes_header_label.getAttribute("text").trim()),true);
+		
 		}
 	// Step 4 : Buy Likes
-	//buyLikes(imageIndex, BuyQuantity, home);
 	}
 	
 	@AfterMethod

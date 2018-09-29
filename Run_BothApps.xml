@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Instagram Likes" verbose="3">
-  <test name="Increase Followers in  Followers App on Android">
+<suite name="Instagram" verbose="4">
+  <test name="Increase Likes and Followers in Apps on Android">
     <classes>
-       <!--  <class name="com.igs.InstagramFollowers"/> -->
-        <class name="com.igs.InstagramLikes"/>
+   		 <class name="com.igs.InstagramLikes"/>
+         <class name="com.igs.InstagramFollowers"/>
     </classes>
   </test> 
+  
 </suite> 

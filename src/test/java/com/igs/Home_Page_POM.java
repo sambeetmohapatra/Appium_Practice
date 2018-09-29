@@ -66,6 +66,9 @@ public class Home_Page_POM  {
 	@FindBy(id="com.mixappgood.libest:id/image_no_photo")
 	public WebElement No_Wallpaper_Image;
 	
+	@FindBy(id="background")
+	public WebElement AdPage;
+	
 	
 	/*----------------FOLLOW SCREEN --------------------*/
 	

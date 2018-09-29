@@ -36,8 +36,9 @@ public class Mobile_Utility extends Connect_Device{
 		wait.until(ExpectedConditions.visibilityOfAllElements(wb));
 	}
 	public void click(WebElement wb){
+		waitForElement(wb);
 		wb.click();
-		System.out.println("Clicked on"+wb);
+		System.out.println("Clicked on "+wb);
 	}
 	
 	public void type(WebElement wb,String values){

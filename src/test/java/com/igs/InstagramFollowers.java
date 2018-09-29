@@ -3,7 +3,6 @@
  */
 package com.igs;
 
-import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -15,7 +14,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.utilities.Mobile_Utility;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -45,13 +43,14 @@ public class InstagramFollowers extends TestBase{
 		cap.setCapability("appActivity", activity );
 
 }
-	@Test(description=" Automate and increase Instagram Followers",priority=1,invocationCount=1)
+	@Test(description=" Automate and increase Instagram Followers",priority=2,invocationCount=1)
 	public void test_instagram_followers() throws MalformedURLException {
 		System.out.println("Running Test : "+this.getClass().getName().trim());
 		System.out.println("Launching App : "+this.pckg);
 
 		String property = getProperty("followers", "./src/test/java/com/igs/Resource.properties");
-		noOfTimes = Integer.parseInt(property.trim());
+		int number = Integer.parseInt(property.trim());
+		noOfTimes=((number*10)/6);
 		
 		driver= new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
 		home = new Home_Page_POM(driver);
@@ -96,10 +95,17 @@ public class InstagramFollowers extends TestBase{
 						(home.Thumbs_Up_Btn_Follow).click();
 						Reporter.log("Clicked "+i +" time(s)",true);
 						customWait(2); 
+						if(i== noOfTimes/2) {
+							click(home.Order_Btn);
+							customWait(1);
+							click(home.Followers_Btn);
+							customWait(1);
+						}
 						break;
 					}
 					catch(Exception e) {
 						goBack();
+						waitForElement(home.Thumbs_Up_Btn_Follow);
 						break;
 					}
 					
