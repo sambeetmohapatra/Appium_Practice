@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.igs.InstagramLikes">
+      <class name="com.allsec.View_Payslip">
         <methods>
-          <include name="afterClass"/>
-          <include name="test_instagram_likes"/>
-          <include name="bm"/>
-          <include name="am"/>
-          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="test_view_paylsip"/>
         </methods>
-      </class> <!-- com.igs.InstagramLikes -->
+      </class> <!-- com.allsec.View_Payslip -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

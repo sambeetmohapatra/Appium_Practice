@@ -1,627 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
     <line>
-      <![CDATA[PreRequsite : Wait For Main Page ]]>
+      <![CDATA[Login to LOGIN]]>
     </line>
     <line>
-      <![CDATA[Step 1 : Go To Followers Tab ]]>
+      <![CDATA[Enter Username wfg1779965]]>
     </line>
     <line>
-      <![CDATA[Existing Followers : 124.2]]>
+      <![CDATA[Enter Password -1037316188]]>
     </line>
     <line>
-      <![CDATA[Step 2 : Increase Followers by 100 no. of Time(s)]]>
+      <![CDATA[Waiting for : 1 second(s)]]>
     </line>
     <line>
-      <![CDATA[Clicked 1 time(s)]]>
+      <![CDATA[Waiting for : 1 second(s)]]>
     </line>
     <line>
-      <![CDATA[Clicked 2 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 3 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 4 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 5 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 6 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 7 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 8 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 9 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 10 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 11 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 12 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 13 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 15 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 16 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 17 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 18 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 19 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 20 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 21 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 22 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 23 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 24 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 25 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 26 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 27 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 28 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 29 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 30 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 31 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 32 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 33 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 34 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 36 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 37 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 38 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 39 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 40 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 41 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 42 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 43 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 44 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 45 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 46 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 47 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 48 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 49 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 50 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 51 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 52 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 53 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 54 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 55 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 56 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 57 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 58 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 59 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 60 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 61 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 62 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 64 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 65 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 66 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 67 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 68 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 69 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 70 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 71 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 72 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 73 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 74 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 75 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 76 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 77 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 78 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 79 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 81 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 82 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 83 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 84 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 85 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 86 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 87 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 88 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 89 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 90 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 91 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 92 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 93 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 94 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 95 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 96 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 98 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 99 time(s)]]>
-    </line>
-    <line>
-      <![CDATA[Clicked 100 time(s)]]>
+      <![CDATA[ JS Clicked :  [[ChromeDriver: chrome on MAC (fc61667bff98ef9002f157672b6e9cc8)] -> css selector: input[id='but_submit']]]]>
     </line>
   </reporter-output>
-  <suite name="Instagram Likes" duration-ms="1815582" started-at="2018-09-29T20:02:38Z" finished-at="2018-09-29T20:32:53Z">
+  <suite name="Default suite" duration-ms="26021" started-at="2018-10-27T19:33:11Z" finished-at="2018-10-27T19:33:37Z">
     <groups>
     </groups>
-    <test name="Increase Followers in  Followers App on Android" duration-ms="1815582" started-at="2018-09-29T20:02:38Z" finished-at="2018-09-29T20:32:53Z">
-      <class name="com.igs.InstagramFollowers">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.igs.InstagramFollowers@73846619]" name="beforeClass" is-config="true" duration-ms="11" started-at="2018-09-30T01:32:38Z" finished-at="2018-09-30T01:32:38Z">
+    <test name="Default test" duration-ms="26021" started-at="2018-10-27T19:33:11Z" finished-at="2018-10-27T19:33:37Z">
+      <class name="com.allsec.View_Payslip">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.allsec.View_Payslip@490ab905]" name="beforeMethod" is-config="true" duration-ms="2891" started-at="2018-10-28T01:03:11Z" finished-at="2018-10-28T01:03:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="bm()[pri:0, instance:com.igs.InstagramFollowers@73846619]" name="bm" is-config="true" duration-ms="1" started-at="2018-09-30T01:32:38Z" finished-at="2018-09-30T01:32:38Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="test_view_paylsip()[pri:1, instance:com.allsec.View_Payslip@490ab905]" name="test_view_paylsip" duration-ms="22918" started-at="2018-10-28T01:03:14Z" description="Open Payslip" finished-at="2018-10-28T01:03:37Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Must provide a location for a move action.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Must provide a location for a move action.
+	at org.openqa.selenium.interactions.MoveMouseAction.<init>(MoveMouseAction.java:34)
+	at org.openqa.selenium.interactions.Actions.moveToElement(Actions.java:257)
+	at com.allsec.View_Payslip.test_view_paylsip(View_Payslip.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bm -->
-        <test-method status="PASS" signature="test_instagram_followers()[pri:2, instance:com.igs.InstagramFollowers@73846619]" name="test_instagram_followers" duration-ms="1811258" started-at="2018-09-30T01:32:38Z" description=" Automate and increase Instagram Followers" finished-at="2018-09-30T02:02:49Z">
-          <reporter-output>
             <line>
-              <![CDATA[PreRequsite : Wait For Main Page ]]>
+              <![CDATA[Login to LOGIN]]>
             </line>
             <line>
-              <![CDATA[Step 1 : Go To Followers Tab ]]>
+              <![CDATA[Enter Username wfg1779965]]>
             </line>
             <line>
-              <![CDATA[Existing Followers : 124.2]]>
+              <![CDATA[Enter Password -1037316188]]>
             </line>
             <line>
-              <![CDATA[Step 2 : Increase Followers by 100 no. of Time(s)]]>
+              <![CDATA[Waiting for : 1 second(s)]]>
             </line>
             <line>
-              <![CDATA[Clicked 1 time(s)]]>
+              <![CDATA[Waiting for : 1 second(s)]]>
             </line>
             <line>
-              <![CDATA[Clicked 2 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 3 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 4 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 5 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 6 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 7 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 8 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 9 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 10 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 11 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 12 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 13 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 15 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 16 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 17 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 18 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 19 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 20 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 21 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 22 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 23 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 24 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 25 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 26 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 27 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 28 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 29 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 30 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 31 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 32 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 33 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 34 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 36 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 37 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 38 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 39 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 40 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 41 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 42 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 43 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 44 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 45 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 46 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 47 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 48 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 49 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 50 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 51 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 52 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 53 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 54 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 55 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 56 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 57 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 58 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 59 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 60 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 61 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 62 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 64 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 65 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 66 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 67 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 68 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 69 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 70 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 71 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 72 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 73 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 74 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 75 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 76 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 77 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 78 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 79 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 81 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 82 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 83 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 84 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 85 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 86 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 87 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 88 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 89 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 90 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 91 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 92 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 93 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 94 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 95 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 96 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 98 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 99 time(s)]]>
-            </line>
-            <line>
-              <![CDATA[Clicked 100 time(s)]]>
+              <![CDATA[ JS Clicked :  [[ChromeDriver: chrome on MAC (fc61667bff98ef9002f157672b6e9cc8)] -> css selector: input[id='but_submit']]]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test_instagram_followers -->
-        <test-method status="PASS" signature="am()[pri:0, instance:com.igs.InstagramFollowers@73846619]" name="am" is-config="true" duration-ms="4303" started-at="2018-09-30T02:02:49Z" finished-at="2018-09-30T02:02:53Z">
+        </test-method> <!-- test_view_paylsip -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.allsec.View_Payslip@490ab905]" name="afterMethod" is-config="true" duration-ms="183" started-at="2018-10-28T01:03:37Z" finished-at="2018-10-28T01:03:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- am -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.igs.InstagramFollowers@73846619]" name="afterClass" is-config="true" duration-ms="2025" started-at="2018-09-30T02:02:54Z" finished-at="2018-09-30T02:02:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.igs.InstagramFollowers -->
-    </test> <!-- Increase Followers in  Followers App on Android -->
-  </suite> <!-- Instagram Likes -->
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.allsec.View_Payslip -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
