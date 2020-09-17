@@ -20,7 +20,7 @@ public  class BaseClass {
 	public void launch_Browser(String url) {
 		
 		 ChromeOptions options = new ChromeOptions();
-		   options.addArguments("--kiosk"); // For Mac its --kiosk
+		 //  options.addArguments("--kiosk"); // For Mac its --kiosk
 		    d = new ChromeDriver(options);
 		    d.manage().timeouts().implicitlyWait(3, TimeUnit.MINUTES);
 			d.get(url);
@@ -43,6 +43,11 @@ public  class BaseClass {
 	
 	public void waitForElement(WebElement wb){
 		WebDriverWait wait = new WebDriverWait(d, 50);
+		wait.until(ExpectedConditions.visibilityOf(wb));
+	}
+	public void waitForElement(WebElement wb,int TimeOut){
+		System.out.println("Waiting For "+wb);
+		WebDriverWait wait = new WebDriverWait(d,TimeOut);
 		wait.until(ExpectedConditions.visibilityOf(wb));
 	}
 	public void waitForAlert(){
@@ -116,7 +121,7 @@ public  class BaseClass {
 	public void quit() {
 		Wait(2);
 		d.quit();
-		System.exit(0);
+		//System.exit(0);
 	}
 }
 
