@@ -4,12 +4,10 @@
 package com.naukri;
 
 import java.io.File;
-import java.io.IOException;
-import java.util.List;
+import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -29,16 +27,18 @@ public class NaukriWeb extends BaseClass {
 	private static String username ="souravabc123@gmail.com";
 	public static String name = "Sourav Mohapatra";
 	private static String password ="sourav_1996";
-	private int loopVar=1;
+	//private int loopVar=10;
 	
 
-	@Test(invocationCount=2)
+	@Test(invocationCount=10)
 	public void run_ig() throws Exception {
 		String cmds[] = {"killall","Google Chrome"};
 		//Runtime.getRuntime().exec(cmds);
 		launchBrowser(url);
-			Naukri_POM ig=new Naukri_POM(d);
+		Naukri_POM ig=new Naukri_POM(d);
+			
 		waitForElement(ig.Naukri_Login,60);
+		closeMultiWindows(url);
 		JS_Click(ig.Naukri_Login);
 		waitForElement(ig.username,60);
 		type(ig.username, username);
@@ -57,7 +57,7 @@ public class NaukriWeb extends BaseClass {
 		Wait(2);
 		waitForElement(ig.Resume_Headline,100);
 		ig.getDataEnterData();
-		//Wait(100);
+		Wait(120);
 	}
 	
 	private void launchBrowser(String url) {
@@ -71,5 +71,16 @@ public class NaukriWeb extends BaseClass {
 			d.get(url);
 			System.out.println(d.getTitle().trim().toUpperCase());
 			
+	}
+	
+	private void closeMultiWindows(String s) {
+		String mainTab = d.getWindowHandle();
+		ArrayList<String> newTabs = new ArrayList<String>(d.getWindowHandles());
+		newTabs.remove(mainTab);
+		for( String i: newTabs) {
+			d.switchTo().window(i);Wait(1);
+			d.close();Wait(1);
+			d.switchTo().window(mainTab);
+		}
 	}
 }
