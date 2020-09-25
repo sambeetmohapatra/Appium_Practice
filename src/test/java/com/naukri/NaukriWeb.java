@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -30,7 +31,7 @@ public class NaukriWeb extends BaseClass {
 	//private int loopVar=10;
 	
 
-	@Test(invocationCount=10)
+	@Test(invocationCount=2)
 	public void run_ig() throws Exception {
 		String cmds[] = {"killall","Google Chrome"};
 		//Runtime.getRuntime().exec(cmds);
@@ -53,7 +54,7 @@ public class NaukriWeb extends BaseClass {
 		
 		WebElement user = d.findElement(By.xpath("//div[text()='"+name+"']"));
 		JS_Click(user);
-		Reporter.log("Clciked on Profile Name " +name,true);
+		Reporter.log("Clicked on Profile Name " +name,true);
 		Wait(2);
 		waitForElement(ig.Resume_Headline,100);
 		ig.getDataEnterData();
@@ -67,6 +68,7 @@ public class NaukriWeb extends BaseClass {
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 		    d = new ChromeDriver(capabilities);
+		    d.manage().window().setPosition(new Point(-2000,0));
 		    d.manage().timeouts().implicitlyWait(3, TimeUnit.MINUTES);
 			d.get(url);
 			System.out.println(d.getTitle().trim().toUpperCase());

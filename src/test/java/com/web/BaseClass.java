@@ -10,7 +10,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+@Listeners({org.uncommons.reportng.HTMLReporter.class,org.uncommons.reportng.JUnitXMLReporter.class})
 
 public  class BaseClass {
 
@@ -82,7 +84,7 @@ public  class BaseClass {
 			JavascriptExecutor executor = (JavascriptExecutor)d;
 			executor.executeScript("arguments[0].click();", wb);
 			
-			Reporter.log("JS Clicked :  "+wb,true);
+			Reporter.log(" Clicked :  "+wb,true);
 			
 		}
 		catch (Exception e) {

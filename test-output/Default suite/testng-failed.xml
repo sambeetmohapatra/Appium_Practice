@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.allsec.View_Payslip">
+      <class name="com.naukri.NaukriWeb">
         <methods>
-          <include name="afterMethod"/>
-          <include name="beforeMethod"/>
-          <include name="test_view_paylsip"/>
+          <include name="run_ig"/>
+          <include name="quit"/>
         </methods>
-      </class> <!-- com.allsec.View_Payslip -->
+      </class> <!-- com.naukri.NaukriWeb -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

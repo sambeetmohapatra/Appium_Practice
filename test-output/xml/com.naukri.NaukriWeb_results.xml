@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="396.572">
+  <properties />
+  
+  
+            <testcase name="run_ig" time="230.083" classname="com.naukri.NaukriWeb" />
+                <testcase name="run_ig" time="166.489" classname="com.naukri.NaukriWeb" />
+      
+</testsuite>
